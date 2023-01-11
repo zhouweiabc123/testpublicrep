@@ -1,0 +1,5 @@
+-
+  api: '/account/updatePasswordByToken'
+  logapi: '/sdkLogin/playerAccount'
+  newPassword: 'abcdefg'
+  erroPassword: 'wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwWWWWW'

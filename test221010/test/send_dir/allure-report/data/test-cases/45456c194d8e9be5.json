@@ -1,0 +1,167 @@
+{
+  "uid" : "45456c194d8e9be5",
+  "name" : "test_13_payCheck_small_age",
+  "fullName" : "test_LoginApi.TestLogin#test_13_payCheck_small_age",
+  "historyId" : "ebe8949665b99e4df1c8af3501b97b8b",
+  "time" : {
+    "start" : 1673406158085,
+    "stop" : 1673406158268,
+    "duration" : 183
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "touristdata",
+    "time" : {
+      "start" : 1673406153575,
+      "stop" : 1673406153804,
+      "duration" : 229
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "pay_data",
+    "time" : {
+      "start" : 1673406167544,
+      "stop" : 1673406167545,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "pay_data",
+    "time" : {
+      "start" : 1673406157879,
+      "stop" : 1673406157880,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "new_tourist_data",
+    "time" : {
+      "start" : 1673406157880,
+      "stop" : 1673406158085,
+      "duration" : 205
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "发送请求",
+      "time" : {
+        "start" : 1673406157881,
+        "stop" : 1673406158085,
+        "duration" : 204
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "new_tourist_data",
+    "time" : {
+      "start" : 1673406158271,
+      "stop" : 1673406158482,
+      "duration" : 211
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "发送请求",
+      "time" : {
+        "start" : 1673406158272,
+        "stop" : 1673406158482,
+        "duration" : 210
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "8岁以下充值校验"
+  }, {
+    "name" : "feature",
+    "value" : "登录注册模块"
+  }, {
+    "name" : "epic",
+    "value" : "X项目"
+  }, {
+    "name" : "suite",
+    "value" : "test_LoginApi"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-8H78TQB"
+  }, {
+    "name" : "thread",
+    "value" : "15608-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_LoginApi"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "45456c194d8e9be5.json",
+  "parameterValues" : [ ]
+}

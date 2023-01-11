@@ -1,0 +1,111 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert {'error': 'Not Found', 'message': 'No message available', 'path': '/getRoleInfo', 'status': 404, ...} == 99\n +  where {'error': 'Not Found', 'message': 'No message available', 'path': '/getRoleInfo', 'status': 404, ...} = <bound method Response.json of <Response [404]>>()\n +    where <bound method Response.json of <Response [404]>> = <Response [404]>.json",
+      "children" : [ {
+        "name" : "test_50_get_userInfo",
+        "uid" : "64a237ae7005d1a3",
+        "parentUid" : "b46da3dfbfe08742df0811d2882c68c3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1673406156341,
+          "stop" : 1673406156511,
+          "duration" : 170
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b46da3dfbfe08742df0811d2882c68c3"
+    }, {
+      "name" : "AssertionError: assert 2 == 1",
+      "children" : [ {
+        "name" : "test_14_create",
+        "uid" : "c26f21f6451ea2e7",
+        "parentUid" : "20b3ab6bb3644f149f5fba207dddc2af",
+        "status" : "failed",
+        "time" : {
+          "start" : 1673406167529,
+          "stop" : 1673406167529,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "20b3ab6bb3644f149f5fba207dddc2af"
+    }, {
+      "name" : "AssertionError: assert 1 == [{'age': '18', 'amount': '19800', 'api': '/indulge/payCheck', 'big_age': '16', ...}]",
+      "children" : [ {
+        "name" : "test_05_tourist_loginfail",
+        "uid" : "32b033ede77b664e",
+        "parentUid" : "9f4486bd67100dec7c5b609022cb88f2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1673406167545,
+          "stop" : 1673406167546,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9f4486bd67100dec7c5b609022cb88f2"
+    }, {
+      "name" : "AssertionError: assert 1 < 1",
+      "children" : [ {
+        "name" : "test_04_usedata[1排第一]",
+        "uid" : "f2880891b538dad5",
+        "parentUid" : "1cafeb52b54d446ea22f8799e50023c2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1673406167563,
+          "stop" : 1673406167563,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1" ]
+      } ],
+      "uid" : "1cafeb52b54d446ea22f8799e50023c2"
+    }, {
+      "name" : "AssertionError: assert 2 < 1",
+      "children" : [ {
+        "name" : "test_04_usedata[2排第二]",
+        "uid" : "828d1215f3a1dd38",
+        "parentUid" : "2cfde2889ad4945a845f81ff20e06ee1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1673406167576,
+          "stop" : 1673406167577,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2" ]
+      } ],
+      "uid" : "2cfde2889ad4945a845f81ff20e06ee1"
+    }, {
+      "name" : "AssertionError: assert 3 < 1",
+      "children" : [ {
+        "name" : "test_04_usedata[3排第三]",
+        "uid" : "53562808b78b0b68",
+        "parentUid" : "481fe8082b9773e094c28cde97ee0de3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1673406167589,
+          "stop" : 1673406167589,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3" ]
+      } ],
+      "uid" : "481fe8082b9773e094c28cde97ee0de3"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

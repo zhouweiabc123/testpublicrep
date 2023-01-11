@@ -1,0 +1,123 @@
+{
+  "uid" : "27c45105d092c0c1",
+  "name" : "test_01_login[data0]",
+  "fullName" : "test_LoginApi.TestLogin#test_01_login",
+  "historyId" : "e086b35d6f6988ff75f3ef69583f0749",
+  "time" : {
+    "start" : 1673406152942,
+    "stop" : 1673406153186,
+    "duration" : 244
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "添加请求头",
+      "time" : {
+        "start" : 1673406152942,
+        "stop" : 1673406152942,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "发送请求",
+      "time" : {
+        "start" : 1673406152942,
+        "stop" : 1673406153186,
+        "duration" : 244
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "断言",
+      "time" : {
+        "start" : 1673406153186,
+        "stop" : 1673406153186,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "登录注册模块"
+  }, {
+    "name" : "story",
+    "value" : "密码正确，登录成功"
+  }, {
+    "name" : "epic",
+    "value" : "X项目"
+  }, {
+    "name" : "suite",
+    "value" : "test_LoginApi"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-8H78TQB"
+  }, {
+    "name" : "thread",
+    "value" : "15608-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_LoginApi"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "[{'api': '/sdkLogin/playerAccount', 'password': '123456', 'user': 'FZSLc53ud9yu', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJnYW1lSWQiOjczLCJhY2NvdW50SWQiOiIxMWVkNjZmNGZlM2VkZjIxNTI1NDAwOWMyZjA5Yjc3MCIsImV4cGlyZVRpbWUiOjE2NjkzNTAxMzcsImdyYW50VHlwZSI6ImF1dGhvcml6YXRpb24ifQ.QpJX0_WxHUrq2iG47Zs134jrvJnucFjXICOKAr2UoFfbNSSViWShdG2mRDIks9SJxGgmK3zmKsWva1jAmEWVtg', 'except_value': '0'}]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "27c45105d092c0c1.json",
+  "parameterValues" : [ "[{'api': '/sdkLogin/playerAccount', 'password': '123456', 'user': 'FZSLc53ud9yu', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJnYW1lSWQiOjczLCJhY2NvdW50SWQiOiIxMWVkNjZmNGZlM2VkZjIxNTI1NDAwOWMyZjA5Yjc3MCIsImV4cGlyZVRpbWUiOjE2NjkzNTAxMzcsImdyYW50VHlwZSI6ImF1dGhvcml6YXRpb24ifQ.QpJX0_WxHUrq2iG47Zs134jrvJnucFjXICOKAr2UoFfbNSSViWShdG2mRDIks9SJxGgmK3zmKsWva1jAmEWVtg', 'except_value': '0'}]" ]
+}

@@ -1,0 +1,102 @@
+{
+  "uid" : "2d4046d67fce4f8",
+  "name" : "test_08_oldpwdLoginFail_tourist",
+  "fullName" : "test_LoginApi.TestLogin#test_08_oldpwdLoginFail_tourist",
+  "historyId" : "a59f5c8f22b9a599fb6ad0d36b6d2815",
+  "time" : {
+    "start" : 1673406155165,
+    "stop" : 1673406155349,
+    "duration" : 184
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "touristdata",
+    "time" : {
+      "start" : 1673406153575,
+      "stop" : 1673406153804,
+      "duration" : 229
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "发送请求",
+      "time" : {
+        "start" : 1673406155165,
+        "stop" : 1673406155348,
+        "duration" : 183
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录注册模块"
+  }, {
+    "name" : "story",
+    "value" : "修改密码后使用原密码重新登录失败"
+  }, {
+    "name" : "epic",
+    "value" : "X项目"
+  }, {
+    "name" : "suite",
+    "value" : "test_LoginApi"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-8H78TQB"
+  }, {
+    "name" : "thread",
+    "value" : "15608-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_LoginApi"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2d4046d67fce4f8.json",
+  "parameterValues" : [ ]
+}

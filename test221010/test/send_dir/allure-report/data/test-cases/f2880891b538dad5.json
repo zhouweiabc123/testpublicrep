@@ -1,0 +1,101 @@
+{
+  "uid" : "f2880891b538dad5",
+  "name" : "test_04_usedata[1排第一]",
+  "fullName" : "test_LoginApi.TestLogin#test_04_usedata",
+  "historyId" : "4f1750f65f5e9f9cbf10b2dab6eb0ccd",
+  "time" : {
+    "start" : 1673406167563,
+    "stop" : 1673406167563,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 1 < 1",
+  "statusTrace" : "self = <test221010.test.test_LoginApi.TestLogin object at 0x000001E35A4F4040>\nlogindata = 1\n\n    @allure.feature('参数传入模块')\n    def test_04_usedata(self,logindata):\n        print(logindata)\n>       assert logindata < 1\nE       assert 1 < 1\n\ntest_LoginApi.py:614: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "logindata",
+    "time" : {
+      "start" : 1673406167563,
+      "stop" : 1673406167563,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "logindata",
+    "time" : {
+      "start" : 1673406167576,
+      "stop" : 1673406167576,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "参数传入模块"
+  }, {
+    "name" : "feature",
+    "value" : "登录注册模块"
+  }, {
+    "name" : "epic",
+    "value" : "X项目"
+  }, {
+    "name" : "suite",
+    "value" : "test_LoginApi"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-8H78TQB"
+  }, {
+    "name" : "thread",
+    "value" : "15608-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_LoginApi"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "logindata",
+    "value" : "1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f2880891b538dad5.json",
+  "parameterValues" : [ "1" ]
+}

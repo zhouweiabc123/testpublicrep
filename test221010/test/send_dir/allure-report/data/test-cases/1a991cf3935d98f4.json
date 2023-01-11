@@ -1,0 +1,162 @@
+{
+  "uid" : "1a991cf3935d98f4",
+  "name" : "test_09_sendreason_success",
+  "fullName" : "test_LoginApi.TestLogin#test_09_sendreason_success",
+  "historyId" : "5e89e7f209be45427fecefbee2e4b60d",
+  "time" : {
+    "start" : 1673406155553,
+    "stop" : 1673406155736,
+    "duration" : 183
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "touristdata",
+    "time" : {
+      "start" : 1673406153575,
+      "stop" : 1673406153804,
+      "duration" : 229
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "new_tourist_data",
+    "time" : {
+      "start" : 1673406155739,
+      "stop" : 1673406155932,
+      "duration" : 193
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "发送请求",
+      "time" : {
+        "start" : 1673406155740,
+        "stop" : 1673406155931,
+        "duration" : 191
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "new_tourist_data",
+    "time" : {
+      "start" : 1673406155350,
+      "stop" : 1673406155553,
+      "duration" : 203
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "发送请求",
+      "time" : {
+        "start" : 1673406155351,
+        "stop" : 1673406155552,
+        "duration" : 201
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "发送请求",
+      "time" : {
+        "start" : 1673406155553,
+        "stop" : 1673406155736,
+        "duration" : 183
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "用户在游戏里面反馈意见"
+  }, {
+    "name" : "feature",
+    "value" : "登录注册模块"
+  }, {
+    "name" : "epic",
+    "value" : "X项目"
+  }, {
+    "name" : "suite",
+    "value" : "test_LoginApi"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-8H78TQB"
+  }, {
+    "name" : "thread",
+    "value" : "15608-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_LoginApi"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1a991cf3935d98f4.json",
+  "parameterValues" : [ ]
+}
