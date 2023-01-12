@@ -1,0 +1,14 @@
+<changelist name="Uncommitted_changes_before_Checkout_at_2023_1_12_11_11_[Changes]" date="1673493102974" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_1_12_11_11_[Changes]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 2023/1/12 11:11 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="test221010/test/send_dir.zip" />
+    <option name="AFTER_PATH" value="test221010/test/send_dir.zip" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_1_12_11_11_[Changes]/send_dir.zip" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="test221010/test/send_dir/allure-report/data/behaviors.csv" />
+    <option name="AFTER_PATH" value="test221010/test/send_dir/allure-report/data/behaviors.csv" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2023_1_12_11_11_[Changes]/behaviors.csv" />
+  </binary>
+</changelist>

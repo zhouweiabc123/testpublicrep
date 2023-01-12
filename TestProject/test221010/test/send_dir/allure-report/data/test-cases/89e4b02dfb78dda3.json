@@ -1,0 +1,173 @@
+{
+  "uid" : "89e4b02dfb78dda3",
+  "name" : "test_11_payCheck_big_age",
+  "fullName" : "test_LoginApi.TestLogin#test_11_payCheck_big_age",
+  "historyId" : "cac935b244f9a24cfd2b57225f95a181",
+  "time" : {
+    "start" : 1673489417018,
+    "stop" : 1673489417201,
+    "duration" : 183
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '游戏中16周岁以上未满18周岁的用户' in ''",
+  "statusTrace" : "self = <test221010.test.test_LoginApi.TestLogin object at 0x0000018CC6B7AA00>\npay_data = [{'age': '18', 'amount': '19800', 'api': '/indulge/payCheck', 'big_age': '16', ...}]\nnew_tourist_data = {'code': 0, 'data': {'account': 'FZ8NUr4oJkh9', 'age': -1, 'gameId': 32, 'indulgeCd': -1, ...}, 'msg': ''}\n\n    @allure.story(\"16到18岁充值校验\")\n    def test_11_payCheck_big_age(self,pay_data,new_tourist_data):\n        newtoken = new_tourist_data['data']['token']\n        header ={\n            'Content - Type': 'application / json;charset = UTF - 8',\n            \"token\": newtoken,\n            \"User-Agent\": \"Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1\"}\n        res = requests.post(url=self.configurl+pay_data[0]['api'],json={\n                'accountId':new_tourist_data['data']['playerId'],\n                'age':pay_data[0]['big_age'],\n                'amount':pay_data[0]['amount'],\n                'gameId':self.gameId\n            },headers=header)\n        response = res.json()\n        print(response)\n        if pay_data[0]['indulge'] == 1:\n            #防沉迷开启\n>           assert pay_data[0]['except_bigstr'] in response['msg']\nE           AssertionError: assert '游戏中16周岁以上未满18周岁的用户' in ''\n\ntest_LoginApi.py:520: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "pay_data",
+    "time" : {
+      "start" : 1673489417220,
+      "stop" : 1673489417221,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "new_tourist_data",
+    "time" : {
+      "start" : 1673489416826,
+      "stop" : 1673489417018,
+      "duration" : 192
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "发送请求",
+      "time" : {
+        "start" : 1673489416826,
+        "stop" : 1673489417018,
+        "duration" : 192
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "new_tourist_data",
+    "time" : {
+      "start" : 1673489417221,
+      "stop" : 1673489417419,
+      "duration" : 198
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "发送请求",
+      "time" : {
+        "start" : 1673489417222,
+        "stop" : 1673489417419,
+        "duration" : 197
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "pay_data",
+    "time" : {
+      "start" : 1673489416824,
+      "stop" : 1673489416825,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "touristdata",
+    "time" : {
+      "start" : 1673489405072,
+      "stop" : 1673489405295,
+      "duration" : 223
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "X项目"
+  }, {
+    "name" : "story",
+    "value" : "16到18岁充值校验"
+  }, {
+    "name" : "feature",
+    "value" : "登录注册模块"
+  }, {
+    "name" : "suite",
+    "value" : "test_LoginApi"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-8H78TQB"
+  }, {
+    "name" : "thread",
+    "value" : "15168-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_LoginApi"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "89e4b02dfb78dda3.json",
+  "parameterValues" : [ ]
+}
