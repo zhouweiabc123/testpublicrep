@@ -204,3 +204,10 @@
   204  history
   205  histoty >> gitbat.txt
   206  history >> gitbash.txt
+  230  du -sh TestProject/
+  231  git config -l
+  232  git config -l | grep http.postbuffer
+  233  git config http.postBuffer 524288000
+  234  git config -l | grep http.postbuffer
+  235  history
+
