@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "ac16977956fd9bc5a02ddb0a87704afd",
+    "name" : "test_LoginApi",
+    "statistic" : {
+      "failed" : 6,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 13,
+      "unknown" : 0,
+      "total" : 20
+    }
+  } ]
+}

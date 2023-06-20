@@ -1,0 +1,201 @@
+[ {
+  "uid" : "e1a18a27b6265e73",
+  "name" : "test_08_oldpwdLoginFail_tourist",
+  "time" : {
+    "start" : 1684294512376,
+    "stop" : 1684294512723,
+    "duration" : 347
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c23cb5d2c4eca04e",
+  "name" : "test_05_jump",
+  "time" : {
+    "start" : 1684294552021,
+    "stop" : 1684294552022,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bdfb0305565a2c83",
+  "name" : "test_13_payCheck_small_age",
+  "time" : {
+    "start" : 1684294533647,
+    "stop" : 1684294534042,
+    "duration" : 395
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "495c42de0f0f95b3",
+  "name" : "test_05_tourist_realuser[realdata0]",
+  "time" : {
+    "start" : 1684294510890,
+    "stop" : 1684294511203,
+    "duration" : 313
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "25cfbf11156597ec",
+  "name" : "test_11_payCheck_big_age",
+  "time" : {
+    "start" : 1684294532210,
+    "stop" : 1684294532573,
+    "duration" : 363
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4f26e3227386c928",
+  "name" : "test_02_loginfail[data10]",
+  "time" : {
+    "start" : 1684294509185,
+    "stop" : 1684294509848,
+    "duration" : 663
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "21bee8dff89c80d5",
+  "name" : "test_14_create",
+  "time" : {
+    "start" : 1684294551950,
+    "stop" : 1684294551951,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b51e7af500b822d",
+  "name" : "test_04_tourist_login[data0]",
+  "time" : {
+    "start" : 1684294510203,
+    "stop" : 1684294510550,
+    "duration" : 347
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee8c8a7a6b0bf70d",
+  "name" : "test_03_tourist_register",
+  "time" : {
+    "start" : 1684294510200,
+    "stop" : 1684294510201,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bde60a7755b690e5",
+  "name" : "test_12_payCheck_midl_age",
+  "time" : {
+    "start" : 1684294532918,
+    "stop" : 1684294533265,
+    "duration" : 347
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8994740990547ff4",
+  "name" : "test_04_usedata[3排第三]",
+  "time" : {
+    "start" : 1684294552012,
+    "stop" : 1684294552012,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "1416b124894a2a04",
+  "name" : "test_50_get_userInfo",
+  "time" : {
+    "start" : 1684294531166,
+    "stop" : 1684294531167,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "fca07cfc9220846a",
+  "name" : "test_01_login[data0]",
+  "time" : {
+    "start" : 1684294508726,
+    "stop" : 1684294509184,
+    "duration" : 458
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3d4e410506d010c9",
+  "name" : "test_09_sendreason_success",
+  "time" : {
+    "start" : 1684294513165,
+    "stop" : 1684294513517,
+    "duration" : 352
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2895a15e7a0bc1dd",
+  "name" : "test_04_usedata[2排第二]",
+  "time" : {
+    "start" : 1684294551993,
+    "stop" : 1684294551993,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "1fc9d016748c084b",
+  "name" : "test_10_payChek_success[paydata0]",
+  "time" : {
+    "start" : 1684294531524,
+    "stop" : 1684294531859,
+    "duration" : 335
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a795da5ab698d033",
+  "name" : "test_04_usedata[1排第一]",
+  "time" : {
+    "start" : 1684294551984,
+    "stop" : 1684294551984,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2dbf8f3a33a58f81",
+  "name" : "test_06_tourist_setpwd[pwddata0]",
+  "time" : {
+    "start" : 1684294511643,
+    "stop" : 1684294512018,
+    "duration" : 375
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "683722de5c0d6192",
+  "name" : "test_07_newpwdLogin_tourist[newpwds0]",
+  "time" : {
+    "start" : 1684294512021,
+    "stop" : 1684294512364,
+    "duration" : 343
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "141e8c9f33ddc70f",
+  "name" : "test_05_tourist_loginfail",
+  "time" : {
+    "start" : 1684294551974,
+    "stop" : 1684294551974,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

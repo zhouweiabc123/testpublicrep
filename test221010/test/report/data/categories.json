@@ -1,0 +1,132 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TypeError: 'NoneType' object is not subscriptable",
+      "children" : [ {
+        "name" : "test_05_tourist_realuser[realdata0]",
+        "uid" : "495c42de0f0f95b3",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1684294510890,
+          "stop" : 1684294511203,
+          "duration" : 313
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/realName/certification', 'idCard': '340302201108031051', 'realName': '陈浩'}, {'gamId': '666666'}]" ]
+      } ],
+      "uid" : "86a928d47f47009c564bd8e345a40463"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 1 == 2",
+      "children" : [ {
+        "name" : "test_50_get_userInfo",
+        "uid" : "1416b124894a2a04",
+        "parentUid" : "d89f5ad50f342bab320c0753c9baac45",
+        "status" : "failed",
+        "time" : {
+          "start" : 1684294531166,
+          "stop" : 1684294531167,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d89f5ad50f342bab320c0753c9baac45"
+    }, {
+      "name" : "AssertionError: assert 2 == 1",
+      "children" : [ {
+        "name" : "test_14_create",
+        "uid" : "21bee8dff89c80d5",
+        "parentUid" : "20b3ab6bb3644f149f5fba207dddc2af",
+        "status" : "failed",
+        "time" : {
+          "start" : 1684294551950,
+          "stop" : 1684294551951,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "20b3ab6bb3644f149f5fba207dddc2af"
+    }, {
+      "name" : "AssertionError: assert 1 == [{'age': '18', 'amount': '19800', 'api': '/indulge/payCheck', 'big_age': '16', ...}]",
+      "children" : [ {
+        "name" : "test_05_tourist_loginfail",
+        "uid" : "141e8c9f33ddc70f",
+        "parentUid" : "9f4486bd67100dec7c5b609022cb88f2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1684294551974,
+          "stop" : 1684294551974,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9f4486bd67100dec7c5b609022cb88f2"
+    }, {
+      "name" : "AssertionError: assert 1 < 1",
+      "children" : [ {
+        "name" : "test_04_usedata[1排第一]",
+        "uid" : "a795da5ab698d033",
+        "parentUid" : "1cafeb52b54d446ea22f8799e50023c2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1684294551984,
+          "stop" : 1684294551984,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1" ]
+      } ],
+      "uid" : "1cafeb52b54d446ea22f8799e50023c2"
+    }, {
+      "name" : "AssertionError: assert 2 < 1",
+      "children" : [ {
+        "name" : "test_04_usedata[2排第二]",
+        "uid" : "2895a15e7a0bc1dd",
+        "parentUid" : "2cfde2889ad4945a845f81ff20e06ee1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1684294551993,
+          "stop" : 1684294551993,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2" ]
+      } ],
+      "uid" : "2cfde2889ad4945a845f81ff20e06ee1"
+    }, {
+      "name" : "AssertionError: assert 3 < 1",
+      "children" : [ {
+        "name" : "test_04_usedata[3排第三]",
+        "uid" : "8994740990547ff4",
+        "parentUid" : "481fe8082b9773e094c28cde97ee0de3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1684294552012,
+          "stop" : 1684294552012,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3" ]
+      } ],
+      "uid" : "481fe8082b9773e094c28cde97ee0de3"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

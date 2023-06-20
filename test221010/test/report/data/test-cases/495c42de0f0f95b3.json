@@ -1,0 +1,131 @@
+{
+  "uid" : "495c42de0f0f95b3",
+  "name" : "test_05_tourist_realuser[realdata0]",
+  "fullName" : "test_LoginApi.TestLogin#test_05_tourist_realuser",
+  "historyId" : "7ddaf68c41cbcfca4790dca5b2c46229",
+  "time" : {
+    "start" : 1684294510890,
+    "stop" : 1684294511203,
+    "duration" : 313
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: 'NoneType' object is not subscriptable",
+  "statusTrace" : "self = <test221010.test.test_LoginApi.TestLogin object at 0x0000025B37CF01F0>\nrealdata = [{'api': '/realName/certification', 'idCard': '340302201108031051', 'realName': '陈浩'}, {'gamId': '666666'}]\nget_token = 'eyJhbGciOiJIUzUxMiJ9.eyJnYW1lSWQiOjczLCJhY2NvdW50SWQiOiIxMWVkZjQ2M2QyZmM4ZWNiNTI1NDAwOWMyZjA5OGRhNyIsImV4cGlyZVRpbWUi...0VHlwZSI6ImF1dGhvcml6YXRpb24ifQ.7tCJ_1357QejlsU_tYRsS2WjMfUA-oxpIjraJ-2ATXWJZp9TyRrqYvf5_MGJhpPp39hio6RAdR8sidm8hEwwWw'\n\n    @allure.story(\"实名认证开启，未实名认证需实名认证成功\")\n    @pytest.mark.parametrize('realdata', yaml.load_all(open(r'./yml/touristreal.yml', 'r', encoding='utf-8')))\n    def test_05_tourist_realuser(self,realdata,get_token):\n        #组装数据\n        header = {'token':get_token,'User-Agent': \"Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1\"}\n        #发送请求\n        res = requests.post(url=self.configurl+realdata[0]['api'],json={\n        \"realName\": realdata[0][\"realName\"],\n        \"idCard\": realdata[0][\"idCard\"],\n        \"apothecary_inexcusable_willful\": None,\n        \"fast_shelve\": None,\n        \"rhyme_systolic\": None\n        },headers=header)\n        response = res.json()\n        #断言 ['data']['indulgeCd']\n>       indulgeCd = response['data']['indulgeCd']\nE       TypeError: 'NoneType' object is not subscriptable\n\ntest_LoginApi.py:231: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "touristdata",
+    "time" : {
+      "start" : 1684294509857,
+      "stop" : 1684294510200,
+      "duration" : 343
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "get_token",
+    "time" : {
+      "start" : 1684294510553,
+      "stop" : 1684294510889,
+      "duration" : 336
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "添加请求头",
+      "time" : {
+        "start" : 1684294510553,
+        "stop" : 1684294510553,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "发送请求",
+      "time" : {
+        "start" : 1684294510553,
+        "stop" : 1684294510889,
+        "duration" : 336
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录注册模块"
+  }, {
+    "name" : "story",
+    "value" : "实名认证开启，未实名认证需实名认证成功"
+  }, {
+    "name" : "epic",
+    "value" : "X项目"
+  }, {
+    "name" : "suite",
+    "value" : "test_LoginApi"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "adminzw"
+  }, {
+    "name" : "thread",
+    "value" : "12876-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_LoginApi"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "realdata",
+    "value" : "[{'api': '/realName/certification', 'idCard': '340302201108031051', 'realName': '陈浩'}, {'gamId': '666666'}]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "495c42de0f0f95b3.json",
+  "parameterValues" : [ "[{'api': '/realName/certification', 'idCard': '340302201108031051', 'realName': '陈浩'}, {'gamId': '666666'}]" ]
+}

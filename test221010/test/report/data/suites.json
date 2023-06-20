@@ -1,0 +1,273 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_LoginApi",
+    "children" : [ {
+      "name" : "TestLogin",
+      "children" : [ {
+        "name" : "test_01_login[data0]",
+        "uid" : "fca07cfc9220846a",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "passed",
+        "time" : {
+          "start" : 1684294508726,
+          "stop" : 1684294509184,
+          "duration" : 458
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/sdkLogin/playerAccount', 'password': '123456', 'user': 'FZSLc53ud9yu', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJnYW1lSWQiOjczLCJhY2NvdW50SWQiOiIxMWVkNjZmNGZlM2VkZjIxNTI1NDAwOWMyZjA5Yjc3MCIsImV4cGlyZVRpbWUiOjE2NjkzNTAxMzcsImdyYW50VHlwZSI6ImF1dGhvcml6YXRpb24ifQ.QpJX0_WxHUrq2iG47Zs134jrvJnucFjXICOKAr2UoFfbNSSViWShdG2mRDIks9SJxGgmK3zmKsWva1jAmEWVtg', 'except_value': '0'}]" ]
+      }, {
+        "name" : "test_02_loginfail[data10]",
+        "uid" : "4f26e3227386c928",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "passed",
+        "time" : {
+          "start" : 1684294509185,
+          "stop" : 1684294509848,
+          "duration" : 663
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/sdkLogin/playerAccount', 'password': '123456', 'user': 'FZSLc53udzw', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJnYW1lSWQiOjczLCJhY2NvdW50SWQiOiIxMWVkNjZmNGZlM2VkZjIxNTI1NDAwOWMyZjA5Yjc3MCIsImV4cGlyZVRpbWUiOjE2NjkzNTAxMzcsImdyYW50VHlwZSI6ImF1dGhvcml6YXRpb24ifQ.QpJX0_WxHUrq2iG47Zs134jrvJnucFjXICOKAr2UoFfbNSSViWShdG2mRDIks9SJxGgmK3zmKsWva1jAmEWVtg'}, {'api': '/sdkLogin/playerAccount', 'password': '123456zw', 'user': 'FZSLc53ud9yu', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJnYW1lSWQiOjczLCJhY2NvdW50SWQiOiIxMWVkNjZmNGZlM2VkZjIxNTI1NDAwOWMyZjA5Yjc3MCIsImV4cGlyZVRpbWUiOjE2NjkzNTAxMzcsImdyYW50VHlwZSI6ImF1dGhvcml6YXRpb24ifQ.QpJX0_WxHUrq2iG47Zs134jrvJnucFjXICOKAr2UoFfbNSSViWShdG2mRDIks9SJxGgmK3zmKsWva1jAmEWVtg'}]" ]
+      }, {
+        "name" : "test_03_tourist_register",
+        "uid" : "ee8c8a7a6b0bf70d",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "passed",
+        "time" : {
+          "start" : 1684294510200,
+          "stop" : 1684294510201,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_04_tourist_login[data0]",
+        "uid" : "b51e7af500b822d",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "passed",
+        "time" : {
+          "start" : 1684294510203,
+          "stop" : 1684294510550,
+          "duration" : 347
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/sdkLogin/playerAccount', 'gameId': '73'}, {'gamId': '666666'}]" ]
+      }, {
+        "name" : "test_05_tourist_realuser[realdata0]",
+        "uid" : "495c42de0f0f95b3",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "broken",
+        "time" : {
+          "start" : 1684294510890,
+          "stop" : 1684294511203,
+          "duration" : 313
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/realName/certification', 'idCard': '340302201108031051', 'realName': '陈浩'}, {'gamId': '666666'}]" ]
+      }, {
+        "name" : "test_06_tourist_setpwd[pwddata0]",
+        "uid" : "2dbf8f3a33a58f81",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "passed",
+        "time" : {
+          "start" : 1684294511643,
+          "stop" : 1684294512018,
+          "duration" : 375
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/account/updatePasswordByToken', 'logapi': '/sdkLogin/playerAccount', 'newPassword': 'abcdefg', 'erroPassword': 'wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwWWWWW'}]" ]
+      }, {
+        "name" : "test_07_newpwdLogin_tourist[newpwds0]",
+        "uid" : "683722de5c0d6192",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "passed",
+        "time" : {
+          "start" : 1684294512021,
+          "stop" : 1684294512364,
+          "duration" : 343
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/account/updatePasswordByToken', 'logapi': '/sdkLogin/playerAccount', 'newPassword': 'abcdefg', 'erroPassword': 'wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwWWWWW'}]" ]
+      }, {
+        "name" : "test_08_oldpwdLoginFail_tourist",
+        "uid" : "e1a18a27b6265e73",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "passed",
+        "time" : {
+          "start" : 1684294512376,
+          "stop" : 1684294512723,
+          "duration" : 347
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_09_sendreason_success",
+        "uid" : "3d4e410506d010c9",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "passed",
+        "time" : {
+          "start" : 1684294513165,
+          "stop" : 1684294513517,
+          "duration" : 352
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_50_get_userInfo",
+        "uid" : "1416b124894a2a04",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "failed",
+        "time" : {
+          "start" : 1684294531166,
+          "stop" : 1684294531167,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_10_payChek_success[paydata0]",
+        "uid" : "1fc9d016748c084b",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "passed",
+        "time" : {
+          "start" : 1684294531524,
+          "stop" : 1684294531859,
+          "duration" : 335
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/indulge/payCheck', 'age': '18', 'big_age': '16', 'midl_age': '11', 'small_age': '6', 'amount': '19800', 'except_bigstr': '游戏中16周岁以上未满18周岁的用户', 'except_midlstr': '游戏中8周岁以上未满16周岁的用户', 'except_smallstr': '本游戏不为未满8周岁的用户', 'indulge': 1}]" ]
+      }, {
+        "name" : "test_11_payCheck_big_age",
+        "uid" : "25cfbf11156597ec",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "passed",
+        "time" : {
+          "start" : 1684294532210,
+          "stop" : 1684294532573,
+          "duration" : 363
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_12_payCheck_midl_age",
+        "uid" : "bde60a7755b690e5",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "passed",
+        "time" : {
+          "start" : 1684294532918,
+          "stop" : 1684294533265,
+          "duration" : 347
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_13_payCheck_small_age",
+        "uid" : "bdfb0305565a2c83",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "passed",
+        "time" : {
+          "start" : 1684294533647,
+          "stop" : 1684294534042,
+          "duration" : 395
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_14_create",
+        "uid" : "21bee8dff89c80d5",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "failed",
+        "time" : {
+          "start" : 1684294551950,
+          "stop" : 1684294551951,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_05_tourist_loginfail",
+        "uid" : "141e8c9f33ddc70f",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "failed",
+        "time" : {
+          "start" : 1684294551974,
+          "stop" : 1684294551974,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_04_usedata[1排第一]",
+        "uid" : "a795da5ab698d033",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "failed",
+        "time" : {
+          "start" : 1684294551984,
+          "stop" : 1684294551984,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1" ]
+      }, {
+        "name" : "test_04_usedata[2排第二]",
+        "uid" : "2895a15e7a0bc1dd",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "failed",
+        "time" : {
+          "start" : 1684294551993,
+          "stop" : 1684294551993,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2" ]
+      }, {
+        "name" : "test_04_usedata[3排第三]",
+        "uid" : "8994740990547ff4",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "failed",
+        "time" : {
+          "start" : 1684294552012,
+          "stop" : 1684294552012,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3" ]
+      }, {
+        "name" : "test_05_jump",
+        "uid" : "c23cb5d2c4eca04e",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "passed",
+        "time" : {
+          "start" : 1684294552021,
+          "stop" : 1684294552022,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3c060fac7dd7942a58ba82a72e657800"
+    } ],
+    "uid" : "ac16977956fd9bc5a02ddb0a87704afd"
+  } ]
+}
