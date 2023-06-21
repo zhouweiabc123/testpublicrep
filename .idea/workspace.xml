@@ -2,54 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73235277-b06b-4c58-afd9-6eaf99ecbeb2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pymulu.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/appautoui/MySQLControl.py" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/appautoui/MySQLControl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/appautoui/RedisControl.py" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/appautoui/RedisControl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/appautoui/redisExcel.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/appautoui/redisExcel.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/appautoui/study_gameui.py" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/appautoui/study_gameui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/appautoui/study_mock.py" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/appautoui/study_mock.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/appautoui/study_pandas.py" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/appautoui/study_pandas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/appautoui/study_redis_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/appautoui/study_redis_search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/base64_code_study.py" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/base64_code_study.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/conf/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/conf/conf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/log/mylog.py" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/log/mylog.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/log/study_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/log/study_log.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/log/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/log/test.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/pachongtest/lagou.py" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/pachongtest/lagou.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/pachongtest/meizitu.py" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/pachongtest/meizitu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/pachongtest/qiubai_crawer.py" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/pachongtest/qiubai_crawer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/public/EmailSend_study.py" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/public/EmailSend_study.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/public/QDdelaytask.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/public/QDdelaytask.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/public/WorkReport.py" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/public/WorkReport.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/public/ZKdelaytask.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/public/ZKdelaytask.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/public/email_run.py" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/public/email_run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/public/study_pandas.py" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/public/study_pandas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/public/study_pandas_write.py" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/public/study_pandas_write.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/public/study_readexcel_request.py" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/public/study_readexcel_request.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/public/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/public/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/public/test.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/public/test.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/public/testSql.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/public/testSql.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/public/test_email.py" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/public/test_email.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/public/zkdata.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/public/zkdata.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/public/按行写入.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/public/按行写入.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/public/除妖.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/public/除妖.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/public/除妖测试.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/setbug/bug_auto_ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/setbug/bug_auto_ui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/setbug/group_bug.py" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/setbug/group_bug.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/study_dj.py" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/study_dj.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/study_signature.py" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/study_signature.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/test/EmailSend_study.py" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/test/EmailSend_study.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/test/RunLoginapi.py" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/test/RunLoginapi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/test/a_apiauto.py" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/test/a_apiauto.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/test/onepython.py" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/test/onepython.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/test/t_webauto.py" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/test/t_webauto.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/test/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/test/test.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/test/test_LoginApi.py" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/test/test_LoginApi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/test/test_allure.py" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/test/test_allure.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/test/testlogin.py" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/test/testlogin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/basepage/BasePage.py" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/test/basepage/BasePage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/pages/GameLoginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/test/pages/GameLoginPage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,6 +85,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ocr" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="testpublicrep" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test221010/test/pages" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test221010/test/pages/ocr.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="t_webauto" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="testpublicrep" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,20 +127,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_LoginApi.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="testpublicrep" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test221010/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test221010/test/test_LoginApi.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests in testlogin.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="testpublicrep" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -182,10 +144,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.GameLoginPage" />
+        <item itemvalue="Python.ocr" />
+        <item itemvalue="Python.BasePage" />
         <item itemvalue="Python.t_webauto" />
         <item itemvalue="Python tests.Python tests in testlogin.py" />
-        <item itemvalue="Python.BasePage" />
-        <item itemvalue="Python tests.Python tests in test_LoginApi.py" />
       </list>
     </recent_temporary>
   </component>

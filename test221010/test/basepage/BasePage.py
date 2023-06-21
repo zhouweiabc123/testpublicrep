@@ -15,8 +15,7 @@ class BasePage:
         :return: 返回元素
         '''
         el=self.driver.find_element(element[0],element[1])
-        el.send_keys()
-
+        #el.send_keys()
         print(el)
         return el
     def el_click(self,element):
@@ -38,7 +37,7 @@ class BasePage:
         #element.send_keys(Keys.ENTER)
     def el_clear(self,element):
         '''
-        清楚元素的内容，如输入框
+        清除元素的内容，如输入框
         :param element: 定位到的元素
         :return:
         '''
@@ -49,6 +48,7 @@ class BasePage:
         return handles
     def switch_to(self,*args):
         '''
+        支持继承重写，子类按照需要来就好
         切换浏览器窗口或页面弹窗、等
         :param:可以是alert、frame、element...
         :return:
@@ -62,6 +62,7 @@ class BasePage:
                 driver.switch_to.window('main')
         '''
         self.driver.switch_to.window(args)
+
     def refresh(self):
         '''
         刷新:return:
