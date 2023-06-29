@@ -1,4 +1,10 @@
 -
   api: '/sdkCreate/touristCreate'
   gameId: '73'
+-
+  api: "/sdkCreate/touristCreate"
+  gameId:
+    -
+      "32"
+  name: "zw"
 

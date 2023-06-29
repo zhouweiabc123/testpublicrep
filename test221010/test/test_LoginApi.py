@@ -5,7 +5,7 @@ import sys
 
 #from test221010.conf.conf import MyConfig
 
-sys.path.append(r"E:\A_PythonProject\TestProject\test221010\test")
+sys.path.append(r"D:\A_Python\GitProjects\ServerProject\testpublicrep\test221010\test")
 import pytest
 import allure
 import yaml
@@ -70,7 +70,7 @@ class TestLogin:
     # NORMAL = 'normal'
     # MINOR = 'minor'
     # TRIVIAL = 'trivial'
-    @pytest.mark.parametrize('data', yaml.load_all(open(r'./yml/login.yml','r',encoding='utf-8')))
+    @pytest.mark.parametrize('data', yaml.load_all(open(r'D:\A_Python\GitProjects\ServerProject\testpublicrep\test221010\test/yml/login.yml','r',encoding='utf-8')))
     @allure.story('密码正确，登录成功')
     @allure.severity('critical')
     def test_01_login(self,data):
@@ -101,7 +101,7 @@ class TestLogin:
         # assert 1 == 2
     #通过参数化，结合yaml文件获取数据并使用
     @allure.story("多组数据登录失败")
-    @pytest.mark.parametrize('data1', yaml.load_all(open(r'./yml/erroruser.yml','r',encoding='utf-8')), )
+    @pytest.mark.parametrize('data1', yaml.load_all(open(r'D:\A_Python\GitProjects\ServerProject\testpublicrep\test221010\test/yml/erroruser.yml','r',encoding='utf-8')), )
     def test_02_loginfail(self,data1):
         # 组装数据
         with allure.step("添加请求头"):
@@ -142,7 +142,7 @@ class TestLogin:
     @allure.feature('游客注册登录模块')
     @pytest.fixture(scope='session')
     def touristdata(self):
-        tourdata = yaml.full_load(open(r'./yml/touristcreate.yml', 'r', encoding='utf-8'))
+        tourdata = yaml.full_load(open(r'D:\A_Python\GitProjects\ServerProject\testpublicrep\test221010\test/yml/touristcreate.yml', 'r', encoding='utf-8'))
         header = {'User-Agent':'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1'}
         #"gameId": tourdata[0]["gameId"]
         res = requests.post(url=self.configurl+tourdata[0]['api'],json={
@@ -166,7 +166,7 @@ class TestLogin:
         assert touristdata['data']['isRegister'] == True
     #拿到生成的正确游客账号，去登录
     @allure.story("游客登录成功")
-    @pytest.mark.parametrize('data', yaml.load_all(open(r'./yml/touristlogin.yml','r',encoding='utf-8')))
+    @pytest.mark.parametrize('data', yaml.load_all(open(r'D:\A_Python\GitProjects\ServerProject\testpublicrep\test221010\test/yml/touristlogin.yml','r',encoding='utf-8')))
     def test_04_tourist_login(self,touristdata,data):
         # 组装数据
         with allure.step("添加请求头"):
@@ -220,7 +220,7 @@ class TestLogin:
 
     #登录游戏，实名认证开启，未实名认证需实名认证
     @allure.story("实名认证开启，未实名认证需实名认证成功")
-    @pytest.mark.parametrize('realdata', yaml.load_all(open(r'./yml/touristreal.yml', 'r', encoding='utf-8')))
+    @pytest.mark.parametrize('realdata', yaml.load_all(open(r'D:\A_Python\GitProjects\ServerProject\testpublicrep\test221010\test/yml/touristreal.yml', 'r', encoding='utf-8')))
     def test_05_tourist_realuser(self,realdata,get_token):
         #组装数据
         header = {'token':get_token,'User-Agent': "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"}
@@ -242,7 +242,7 @@ class TestLogin:
         print(response)
 
     @allure.story("修改密码成功")
-    @pytest.mark.parametrize('pwddata', yaml.load_all(open(r"./yml/newpwd.yml", "r", encoding="utf-8")))
+    @pytest.mark.parametrize('pwddata', yaml.load_all(open(r"D:\A_Python\GitProjects\ServerProject\testpublicrep\test221010\test/yml/newpwd.yml", "r", encoding="utf-8")))
     def test_06_tourist_setpwd(self,pwddata,get_token):
         with allure.step("获取要修改的账号token"):
             print("拿到token备用")
@@ -259,7 +259,7 @@ class TestLogin:
     new_token = None
 
     @allure.story("修改密码后使用新密码重新登录成功")
-    @pytest.mark.parametrize('newpwds', yaml.load_all(open(r'./yml/newpwd.yml','r',encoding='utf-8')))
+    @pytest.mark.parametrize('newpwds', yaml.load_all(open(r'D:\A_Python\GitProjects\ServerProject\testpublicrep\test221010\test/yml/newpwd.yml','r',encoding='utf-8')))
     def test_07_newpwdLogin_tourist(self,touristdata,newpwds):
         # 组装数据
         header = {"User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"}
@@ -288,7 +288,7 @@ class TestLogin:
     #@pytest.mark.parametrize('newpwds',yaml.load_all(open(r'./yml/newpwd.yml')))
     @pytest.fixture()
     def new_tourist_data(self, touristdata):
-        newpwds= yaml.full_load(open(r'./yml/newpwd.yml','r',encoding='utf-8'))
+        newpwds= yaml.full_load(open(r'D:\A_Python\GitProjects\ServerProject\testpublicrep\test221010\test/yml/newpwd.yml','r',encoding='utf-8'))
         # 组装数据
         header = {
             "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1"}
@@ -362,7 +362,7 @@ class TestLogin:
     #获取支付校验参数集
     @pytest.fixture()
     def pay_data(self):
-        paydata = yaml.full_load(open(r'./yml/paychekdata.yml','r',encoding='utf-8'))
+        paydata = yaml.full_load(open(r'D:\A_Python\GitProjects\ServerProject\testpublicrep\test221010\test/yml/paychekdata.yml','r',encoding='utf-8'))
         return paydata
     #获取年龄参数
     @pytest.fixture()
@@ -372,7 +372,7 @@ class TestLogin:
         :param new_tourist_data:
         :return:
         '''
-        data = yaml.full_load(open(r"./yml/realNameSwitchs.yml",'r',encoding='utf-8'))
+        data = yaml.full_load(open(r"D:\A_Python\GitProjects\ServerProject\testpublicrep\test221010\test/yml/realNameSwitchs.yml",'r',encoding='utf-8'))
         api = data[0]['api']
         newtoken = new_tourist_data['data']['token']
         header = {
@@ -386,12 +386,12 @@ class TestLogin:
     #创建订单的固定参数
     @pytest.fixture()
     def create_data(self):
-        data = yaml.full_load(r"./yml/create.yml","r",encodings="utf-8")
+        data = yaml.full_load(r"D:\A_Python\GitProjects\ServerProject\testpublicrep\test221010\test/yml/create.yml","r",encodings="utf-8")
 
     #获取openId
     @pytest.fixture()
     def get_openId(self,get_age,new_tourist_data,mk_time):
-        data  = yaml.full_load(open(r"./yml/index.yml","r",encoding="utf-8"))
+        data  = yaml.full_load(open(r"D:\A_Python\GitProjects\ServerProject\testpublicrep\test221010\test/yml/index.yml","r",encoding="utf-8"))
         playerId = new_tourist_data['data']['playerId']#获取playerId
         sign = new_tourist_data['data']['sign']#获取sign
         get_age = get_age+10 #未成年会失败，所以给年龄加10
@@ -473,7 +473,7 @@ class TestLogin:
         return res.json()
 
     @allure.story("18岁成年，支付校验通过")
-    @pytest.mark.parametrize('paydata',yaml.load_all(open(r'./yml/paychekdata.yml','r',encoding='utf-8')))
+    @pytest.mark.parametrize('paydata',yaml.load_all(open(r'D:\A_Python\GitProjects\ServerProject\testpublicrep\test221010\test/yml/paychekdata.yml','r',encoding='utf-8')))
     def test_10_payChek_success(self,new_tourist_data,paydata):
         #获取当前时间
         print("当前时间string形式：",time.ctime())

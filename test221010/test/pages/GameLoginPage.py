@@ -49,13 +49,18 @@ class GameLoginPage(BasePage):
         check_input.send_keys(check_code)
         print("输入图片验证码成功")
         sleep(2)
-        #勾选协议和隐私政策
-        check_box=self.driver.find_element("xpath",'//*[@id="app"]/div[2]/div/div[2]/div/div/div/div/form/div[4]/div/div/label')
-        #check_box.click()
+
+        print("不勾选同意协议")
         #点击登录
         login_bt=self.el_find(("xpath",'//*[@id="app"]/div[2]/div/div[2]/div/div/div/div/form/div[5]/div/div/button'))
         self.el_click(login_bt)
-        sleep(1)
+        sleep(2)
+        print("勾选登录")
+        # 勾选协议和隐私政策，登录
+        check_box = self.driver.find_element("xpath",'//*[@id="app"]/div[2]/div/div[2]/div/div/div/div/form/div[4]/div/div/label')
+        check_box.click()
+        self.el_click(login_bt)
+        sleep(2)
         print("登录页面的一些操作")
         #回到快速登录页
         self.driver.get(self.quick_login_url)
@@ -63,7 +68,7 @@ class GameLoginPage(BasePage):
         print("现在在快速登录页，准备快速登录")
         #定位快速登录按钮，点击快速登录进去游戏里
         quick_login_bt=self.driver.find_element("xpath",'//*[@id="app"]/div[2]/div/div[2]/div/div/div/div[1]/div[3]/button')
-        self.el_click(quick_login_bt)
+        #self.el_click(quick_login_bt)
         sleep(1)
         print("进入了游戏选服页面")
         #定位SDK功能浮标，点击显示功能入口弹窗
@@ -72,9 +77,10 @@ class GameLoginPage(BasePage):
         print("点击！")
         sleep(1)
         #定位修改密码，然后点击
-        update_password_icon=self.el_find(("xpath",'//*[@id="app"]/div[4]/div/div/section/div/div/div[2]/div[1]/i[1]'))
-        self.el_click(update_password_icon)
+        # update_password_icon=self.el_find(("xpath",'//*[@id="app"]/div[4]/div/div/section/div/div/div[2]/div[1]/i[1]'))
+        # self.el_click(update_password_icon)
         sleep(1)
+        #刷新
         self.driver.refresh()
         # ac=ActionChains(self.driver)
         # ac.move_to_element(return_span).click().perform()
@@ -204,6 +210,117 @@ class GameLoginPage(BasePage):
         '''
         print("看协议的WEB操作")
         pass
+    def inGameUpPwd(self):
+        print("玩家在游戏里的SDK操作")
+        print("修改密码")
+        # 定位SDK功能浮标，点击显示功能入口弹窗
+        icon_img_bt = self.el_find(("xpath", '//*[@id="app"]/div[3]'))
+        icon_img_bt.click()
+        print("点击！")
+        sleep(1)
+        # 定位修改密码，然后点击
+        update_password_icon = self.el_find(
+            ("xpath", '//*[@id="app"]/div[4]/div/div/section/div/div/div[2]/div[1]/i[1]'))
+        self.el_click(update_password_icon)
+        print("修改密码弹窗弹出")
+        sleep(1)
+        #定位到修改密码输入框，输入两次修改的密码
+        input_password_first=self.el_find(("xpath",'//*[@id="app"]/div[2]/div/div[2]/div/div/div/div/form/div[1]/div/div/div/input'))
+        input_password_second=self.driver.find_element("xpath",'//*[@id="app"]/div[2]/div/div[2]/div/div/div/div/form/div[2]/div/div/div/input')
+        sleep(1)
+        print("定位并输入修改密码")
+        input_password_first.send_keys("123456")
+        self.el_sendkeys(input_password_second,"123456")
+        sleep(1)
+        #确认修改密码，这里用显示等待
+        confirm_bt=WebDriverWait(self.driver,3,1).until(lambda x:self.el_find(("xpath",'//*[@id="app"]/div[2]/div/div[2]/div/div/div/div/form/div[3]/div/div/button')))
+        self.el_click(confirm_bt)
+        print("修改成功")
+        sleep(1)
+    def inGameBindPhone(self):
+        print("绑定手机号码")
+        # 定位SDK功能浮标，点击显示功能入口弹窗
+        icon_img_bt = self.el_find(("xpath", '//*[@id="app"]/div[3]'))
+        icon_img_bt.click()
+        print("点击！")
+        sleep(1)
+        #定位绑定手机,点击
+        bind_phone_icon=self.el_find(("xpath",'//*[@id="app"]/div[4]/div/div/section/div/div/div[2]/div[2]/i[1]'))
+        bind_phone_icon.click()
+        sleep(1)
+        print("绑定手机号弹窗弹出")
+        #手机验证码登录，自动脚本无法实现，先跳过，直接关闭弹窗
+        close_bt=self.driver.find_element("xpath",'//*[@id="app"]/div[2]/div/div[1]/button')
+        sleep(1)
+        close_bt.click()
+        print("关闭绑定手机号弹窗")
+        pass
+    def inGameChangeAccount(self):
+        print("切换账号")
+        # 定位SDK功能浮标，点击显示功能入口弹窗
+        icon_img_bt = self.el_find(("xpath", '//*[@id="app"]/div[3]'))
+        icon_img_bt.click()
+        print("点击！")
+        sleep(1)
+        #定位切换账号,点击
+        change_icon=self.el_find(("xpath",'//*[@id="app"]/div[4]/div/div/section/div/div/div[2]/div[3]/i[1]'))
+        sleep(1)
+        self.el_click(change_icon)
+        print("开始切换账号")
+        sleep(1)
+        #元素不可用，采取JS点击方法
+        js="document.querySelector('#app > div:nth-child(2) > div > div.el-dialog__body > div > div > div > div > span').click()"
+        self.driver.execute_script(js)
+        print("切换到账号快速登录页面")
+        sleep(1)
+        #再次重新登录
+        quick_login_bt=self.el_find(("xpath",'//*[@id="app"]/div[2]/div/div[2]/div/div/div/div[1]/div[3]/button'))
+        quick_login_bt.click()
+        sleep(1)
+        print("登录")
+        pass
+    def inGameExpress(self):
+        print("发表意见反馈")
+        # 定位SDK功能浮标，点击显示功能入口弹窗
+        icon_img_bt = self.el_find(("xpath", '//*[@id="app"]/div[3]'))
+        icon_img_bt.click()
+        print("点击！")
+        sleep(1)
+        #定位意见反馈
+        express_icon=self.driver.find_element("xpath",'//*[@id="app"]/div[4]/div/div/section/div/div/div[2]/div[4]/i[1]')
+        express_icon.click()
+        print("弹出意见反馈填写弹窗")
+        sleep(1)
+        #意见反馈输入框，输入意见反馈信息
+        write_input=self.el_find(("xpath",'//*[@id="app"]/div[2]/div/div[2]/div/div/div/div/form/div[1]/div/div/div/textarea'))
+        self.el_sendkeys(write_input,"反馈了一条意见给客服")
+        sleep(1)
+        print("意见填写成功")
+        #定位提交按钮，提交意见反馈
+        sm_bt=self.el_find(("xpath",'//*[@id="app"]/div[2]/div/div[2]/div/div/div/div/form/div[2]/div/div/button'))
+        self.el_click(sm_bt)
+        sleep(1)
+        print("点击发表")
+        #关闭发表意见弹窗
+        express_close_bt=self.driver.find_element("xpath",'//*[@id="app"]/div[2]/div/div[1]/button')
+        express_close_bt.click()
+        print("关闭意见反馈弹窗")
+    def inGameCustomer(self):
+        #可有可无，因为只是展示加客服的二维码
+        print("联系客服")
+        # 定位SDK功能浮标，点击显示功能入口弹窗
+        icon_img_bt = self.el_find(("xpath", '//*[@id="app"]/div[3]'))
+        icon_img_bt.click()
+        print("点击！")
+        sleep(1)
+        #定位联系客服
+        customer_icon=self.el_find(("xpath",'//*[@id="app"]/div[4]/div/div/section/div/div/div[2]/div[5]/i[1]'))
+        self.el_click(customer_icon)
+        sleep(1)
+        print("联系客服二维码弹窗打开")
+        #定位关闭按钮，关闭二维码
+        custom_close_bt=self.el_find(("xpath",'//*[@id="app"]/div[2]/div/div[1]/button'))
+        self.el_click(custom_close_bt)
 if __name__ == '__main__':
     print("创建GameloginPage对象")
     driver=1
@@ -211,4 +328,10 @@ if __name__ == '__main__':
     gl.register()
     gl.login()
     gl.look()
+    gl.inGameUpPwd()
+    gl.inGameBindPhone()
+    gl.inGameExpress()
+    gl.inGameChangeAccount()
+    gl.inGameCustomer()
+    #目前只模拟用户操作，尚未进行断言当成测用例，还差一个实名认证未做
 
