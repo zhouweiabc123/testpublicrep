@@ -1,0 +1,130 @@
+{
+  "uid" : "21b2357b4fe97abd",
+  "name" : "test_05_tourist_realuser[realdata0]",
+  "fullName" : "test_LoginID79qw.TestHuanRengLu#test_05_tourist_realuser",
+  "historyId" : "8347f074e230d131d267722f83942c54",
+  "time" : {
+    "start" : 1689733275428,
+    "stop" : 1689733275908,
+    "duration" : 480
+  },
+  "description" : "斗魂大陆",
+  "descriptionHtml" : "<p>斗魂大陆</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "touristdata",
+    "time" : {
+      "start" : 1689733274390,
+      "stop" : 1689733274691,
+      "duration" : 301
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "get_token",
+    "time" : {
+      "start" : 1689733275045,
+      "stop" : 1689733275428,
+      "duration" : 383
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "添加请求头",
+      "time" : {
+        "start" : 1689733275047,
+        "stop" : 1689733275047,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "发送请求",
+      "time" : {
+        "start" : 1689733275047,
+        "stop" : 1689733275428,
+        "duration" : 381
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 2
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "X项目幻刃录游戏"
+  }, {
+    "name" : "story",
+    "value" : "实名认证开启，未实名认证需实名认证成功"
+  }, {
+    "name" : "feature",
+    "value" : "幻刃录登录注册模块"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "suite",
+    "value" : "test_LoginID79qw"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestHuanRengLu"
+  }, {
+    "name" : "host",
+    "value" : "adminzw"
+  }, {
+    "name" : "thread",
+    "value" : "8972-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_LoginID79qw"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "realdata",
+    "value" : "[{'api': '/realName/certification', 'idCard': '340302201108031051', 'realName': '陈浩'}, {'gamId': '666666'}]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "21b2357b4fe97abd.json",
+  "parameterValues" : [ "[{'api': '/realName/certification', 'idCard': '340302201108031051', 'realName': '陈浩'}, {'gamId': '666666'}]" ]
+}

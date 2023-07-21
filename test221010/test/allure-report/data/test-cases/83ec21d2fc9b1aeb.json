@@ -1,0 +1,141 @@
+{
+  "uid" : "83ec21d2fc9b1aeb",
+  "name" : "test_09_sendtworeason_success[senddata0]",
+  "fullName" : "test_LoginID32qw.TestQingWeng#test_09_sendtworeason_success",
+  "historyId" : "9de0721ca3f361d97c181f199c01143f",
+  "time" : {
+    "start" : 1689733304642,
+    "stop" : 1689733305336,
+    "duration" : 694
+  },
+  "description" : "请问你为啥这么厉害",
+  "descriptionHtml" : "<p>请问你为啥这么厉害</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "touristdata",
+    "time" : {
+      "start" : 1689733299766,
+      "stop" : 1689733300304,
+      "duration" : 538
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "new_tourist_data",
+    "time" : {
+      "start" : 1689733304007,
+      "stop" : 1689733304642,
+      "duration" : 635
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "发送请求",
+      "time" : {
+        "start" : 1689733304010,
+        "stop" : 1689733304642,
+        "duration" : 632
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 1
+  } ],
+  "testStage" : {
+    "description" : "请问你为啥这么厉害",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "发送请求",
+      "time" : {
+        "start" : 1689733304642,
+        "stop" : 1689733305336,
+        "duration" : 694
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "请问登录注册模块"
+  }, {
+    "name" : "epic",
+    "value" : "X项目请问游戏"
+  }, {
+    "name" : "story",
+    "value" : "用户在游戏里面反馈多条意见成功"
+  }, {
+    "name" : "suite",
+    "value" : "test_LoginID32qw"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestQingWeng"
+  }, {
+    "name" : "host",
+    "value" : "adminzw"
+  }, {
+    "name" : "thread",
+    "value" : "8972-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_LoginID32qw"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "senddata",
+    "value" : "[{'api': '/info/feedback', 'content1': {'content': 'one,用户反馈了一条意见'}, 'content2': {'content': 'two,用户反馈了一条意见'}}]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "83ec21d2fc9b1aeb.json",
+  "parameterValues" : [ "[{'api': '/info/feedback', 'content1': {'content': 'one,用户反馈了一条意见'}, 'content2': {'content': 'two,用户反馈了一条意见'}}]" ]
+}

@@ -3,12 +3,67 @@
   <component name="ChangeListManager">
     <list default="true" id="73235277-b06b-4c58-afd9-6eaf99ecbeb2" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/test/onepython.py" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/test/onepython.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/test/pages/GameLoginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/test/pages/GameLoginPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/test/pages/check.png" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/test/pages/check.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/test/pages/el.png" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/test/pages/el.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitbash.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gitbash.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/test.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/test/test.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test221010/test/test_LoginApi.py" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/test/test_LoginApi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test221010/test/test_allure.py" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/test/test_allure.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/testlogin.py" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/test/testlogin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/049d33e6-6580-4a10-80d9-742d9b1da43d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/0bbf46c8-a5bb-4afe-b4f3-f41dec1ac859-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/0f536498-a631-4c9d-bf7d-f96803d58b53-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/0ffd3ae1-eb52-418e-88d8-3b5aa8364ee7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/12032bca-9572-4182-9dfc-2c7ad8c3cd2f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/1ceae711-ea7a-47f3-912e-6fd045135e82-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/1e9f719d-2996-46fb-a443-f00801ce2993-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/27c3db1f-3b64-43de-8ba2-cd9a20a720e9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/284c5171-2254-4df2-91d5-9ca956748a6c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/3e81aaff-e722-46c5-a615-18cf7388f940-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/4021cbbe-246f-4e9c-9ef9-4226f0fb6168-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/4b2b2e10-838a-4d26-92fb-3241f4f7f6c7-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/53263dd8-c6a8-40e3-9880-00d5faecf326-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/5663e465-2d9f-49f6-8d0d-76772f59e035-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/64025799-defd-4fe1-af6a-7c10de00f8f2-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/65aa1457-af0b-4871-b488-d17a5ffad3c3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/6cb4fb64-c294-462e-bb2f-20cfbad3b08c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/71228cdb-7e92-4a23-9908-751e25d8f2cf-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/7783c0cd-3989-4b80-a035-b09539541daa-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/85255095-7895-4749-8a54-3dea48e97168-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/86780484-0e94-48b2-84f7-23ebee5b8cde-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/87658583-3289-4708-b16c-3d5f4350b2ec-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/8c24de66-355b-4323-9533-92c8216b819e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/950dcf57-74f7-4ef8-9262-8b9314f7a614-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/9765601e-6201-42d6-aca4-a28ba68fbc24-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/998edc24-392a-40bd-803d-73adb95d68fd-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/a16e17ca-7001-4648-8710-2a90b3ff9153-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/a783731d-d4b6-4b58-b9e1-f32f811f7329-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/a84bb2ff-26f0-4eee-865f-fb94890a30ad-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/aec7cfc3-55de-4bcc-865c-0d2dff909870-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/afaf6a85-3eff-439f-864f-e6ed99a05763-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/b6c9f419-fcaa-4f06-82f5-26fa090d6b1e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/b84ce1f6-fbc2-4350-99fb-57ba5946482f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/bcfed7a8-b352-4eae-b1e3-7410f2d28d72-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/becd973e-cab2-40f4-bfd0-129377436459-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/c4496c2c-1c33-43fc-8432-e46e7ed01db1-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/c7e3c8a5-bd77-4115-9c79-c9cc6a44fcc6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/ca2c8156-c689-4e76-a399-805a975644ef-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/ce59b7bd-91b3-4249-9a30-35d1e6b83545-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/d9b59e47-eaac-4d91-a723-93790142a784-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/db9d85b5-e1dd-45da-b5b1-17c6e6337019-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/e2d1101a-2d1f-4663-b286-6d79f0ec4698-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/f1b89e51-3ac1-4e3e-b6f1-c36433a7cfd2-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/f3f066f5-94d8-45f3-b0e0-295b8786c919-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/f4cc5d5d-e370-429b-af37-822ea8ed357e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/f78abf9e-0621-4f7d-a89c-512d3205a8c5-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/f866689a-adca-43c5-a5f3-33e854f582aa-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/f8773784-1f71-4e6a-9e8a-b08f73c302d2-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/f8906207-bcd2-4dc7-8336-b17d5376a343-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/fb6ca8fa-eef6-48f5-8c76-e4a56589335c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/fc5f6e2f-b6e5-4cdc-9987-b63fbbfc066f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/tmp/ffaaa316-3bb6-45cb-bd96-fd2c24077993-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/yml/create.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/test/yml/create.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/yml/erroruser.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/test/yml/erroruser.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/yml/index.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/test/yml/index.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test221010/test/yml/login.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/test/yml/login.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test221010/test/yml/touristcreate.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test221010/test/yml/touristcreate.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,38 +93,23 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/A_Python/GitProjects/DjProject/WEBDJ/AutoPlateTest&quot;
+    &quot;last_opened_file_path&quot;: &quot;D:/A_Python/GitProjects/ServerProject/testpublicrep/test221010/test/airdemo.air&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\A_Python\GitProjects\ServerProject\testpublicrep\test221010\test\airdemo.air" />
+      <recent name="D:\A_Python\GitProjects\ServerProject\testpublicrep\test221010" />
+      <recent name="D:\A_Python\GitProjects\ServerProject\testpublicrep\test221010\test" />
       <recent name="D:\A_Python\GitProjects\ServerProject\testpublicrep\test221010\conf" />
       <recent name="D:\A_Python\GitProjects\ServerProject\testpublicrep\test221010\public" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\A_Python\GitProjects\ServerProject\testpublicrep\test221010\test" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in test_allure.py">
-    <configuration name="GameLoginPage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="testpublicrep" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test221010/test/pages" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test221010/test/pages/GameLoginPage.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="onepython" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests in test_LoginID32qw.py">
+    <configuration name="JenkinsRunLogin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="testpublicrep" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -81,7 +121,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test221010/test/onepython.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test221010/test/JenkinsRunLogin.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -90,35 +130,70 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_allure.TestStudyLogin.test_05_tourist_realuser" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="testlogin" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="testpublicrep" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test221010/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_allure.TestStudyLogin.test_05_tourist_realuser&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test221010/test/testlogin.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in onepython.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="untitled" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="testpublicrep" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test221010/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test221010/test/airdemo.air" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test221010/test/onepython.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test221010/test/airdemo.air/untitled.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_allure.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="windows_airdemo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="testpublicrep" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test221010/test/airdemo.air" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test221010/test/airdemo.air/windows_airdemo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_LoginID32qw.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="testpublicrep" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -128,17 +203,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test221010/test/test_allure.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test221010/test/test_LoginID32qw.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests in test_allure.py" />
-        <item itemvalue="Python tests.Python tests for test_allure.TestStudyLogin.test_05_tourist_realuser" />
-        <item itemvalue="Python.GameLoginPage" />
-        <item itemvalue="Python.onepython" />
-        <item itemvalue="Python tests.Python tests in onepython.py" />
+        <item itemvalue="Python tests.Python tests in test_LoginID32qw.py" />
+        <item itemvalue="Python.windows_airdemo" />
+        <item itemvalue="Python.untitled" />
+        <item itemvalue="Python.testlogin" />
+        <item itemvalue="Python.JenkinsRunLogin" />
       </list>
     </recent_temporary>
   </component>

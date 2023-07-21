@@ -1,0 +1,108 @@
+{
+  "uid" : "e3e5dccdfa6ff87e",
+  "name" : "test_03_tourist_register",
+  "fullName" : "test_LoginID79qw.TestHuanRengLu#test_03_tourist_register",
+  "historyId" : "6533e06bcaca8875a751a48afeb3aa55",
+  "time" : {
+    "start" : 1689733274691,
+    "stop" : 1689733274691,
+    "duration" : 0
+  },
+  "description" : "斗魂大陆",
+  "descriptionHtml" : "<p>斗魂大陆</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "touristdata",
+    "time" : {
+      "start" : 1689733274390,
+      "stop" : 1689733274691,
+      "duration" : 301
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "斗魂大陆",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "查看游客账号",
+      "time" : {
+        "start" : 1689733274691,
+        "stop" : 1689733274691,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "生成游客账号成功"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "epic",
+    "value" : "X项目幻刃录游戏"
+  }, {
+    "name" : "feature",
+    "value" : "幻刃录登录注册模块"
+  }, {
+    "name" : "suite",
+    "value" : "test_LoginID79qw"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestHuanRengLu"
+  }, {
+    "name" : "host",
+    "value" : "adminzw"
+  }, {
+    "name" : "thread",
+    "value" : "8972-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_LoginID79qw"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e3e5dccdfa6ff87e.json",
+  "parameterValues" : [ ]
+}

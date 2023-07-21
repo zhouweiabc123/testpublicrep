@@ -1,0 +1,108 @@
+{
+  "uid" : "82f88bdf57480470",
+  "name" : "test_03_tourist_register",
+  "fullName" : "test_LoginID80qw.TestDouZhen#test_03_tourist_register",
+  "historyId" : "906106ef1a2ce87aa728e16c76ed5de1",
+  "time" : {
+    "start" : 1689733262411,
+    "stop" : 1689733262411,
+    "duration" : 0
+  },
+  "description" : "斗争的魔气",
+  "descriptionHtml" : "<p>斗争的魔气</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "touristdata",
+    "time" : {
+      "start" : 1689733262062,
+      "stop" : 1689733262410,
+      "duration" : 348
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "斗争的魔气",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "查看游客账号",
+      "time" : {
+        "start" : 1689733262411,
+        "stop" : 1689733262411,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "生成游客账号成功"
+  }, {
+    "name" : "epic",
+    "value" : "X项目斗争游戏"
+  }, {
+    "name" : "feature",
+    "value" : "登录注册模块"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "suite",
+    "value" : "test_LoginID80qw"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDouZhen"
+  }, {
+    "name" : "host",
+    "value" : "adminzw"
+  }, {
+    "name" : "thread",
+    "value" : "8972-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_LoginID80qw"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "82f88bdf57480470.json",
+  "parameterValues" : [ ]
+}

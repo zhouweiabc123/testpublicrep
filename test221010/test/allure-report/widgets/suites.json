@@ -1,0 +1,59 @@
+{
+  "total" : 5,
+  "items" : [ {
+    "uid" : "ac16977956fd9bc5a02ddb0a87704afd",
+    "name" : "test_LoginApi",
+    "statistic" : {
+      "failed" : 5,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 20,
+      "unknown" : 0,
+      "total" : 28
+    }
+  }, {
+    "uid" : "fca94cb95ca800708bc26bdd6e2a0306",
+    "name" : "test_LoginID80qw",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 18,
+      "unknown" : 0,
+      "total" : 22
+    }
+  }, {
+    "uid" : "c0312abb0c44f97eeff86c64d066010e",
+    "name" : "test_LoginID37qw",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 18,
+      "unknown" : 0,
+      "total" : 22
+    }
+  }, {
+    "uid" : "770159e82a017c62bc54c443480c8f37",
+    "name" : "test_LoginID79qw",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 19,
+      "unknown" : 0,
+      "total" : 22
+    }
+  }, {
+    "uid" : "eaf14dec0fc445a8bf40c78ae83d09ec",
+    "name" : "test_LoginID32qw",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 22,
+      "unknown" : 0,
+      "total" : 22
+    }
+  } ]
+}

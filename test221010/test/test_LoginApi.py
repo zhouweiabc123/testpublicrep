@@ -19,7 +19,7 @@ from test221010.log import mylog
 
 #import yaml
 # from ddt import data,file_data
-@allure.epic("X项目")
+@allure.epic("X项目除妖和戮仙战纪")
 @allure.feature("登录注册模块")
 class TestLogin:
     '''
@@ -49,7 +49,7 @@ class TestLogin:
     tourtoken = None
 
     #时间在10:30:00到18:00:00之间使用dev环境，gameId使用'73'
-    dev_start_time = f"{YMD} 10:30:00"
+    dev_start_time = f"{YMD} 09:00:00"
     dev_end_time = f"{YMD} 18:00:00"
     if dev_start_time<ftime<dev_end_time:
         configurl = 'https://isp-dev.hhygames.com'
@@ -74,7 +74,6 @@ class TestLogin:
     @allure.story('密码正确，登录成功')
     @allure.severity('critical')
     def test_01_login(self,data):
-
         #组装数据
         #mylog.mylog.info('开始接口测试')
         with allure.step("添加请求头"):
@@ -103,6 +102,7 @@ class TestLogin:
     @allure.story("多组数据登录失败")
     @pytest.mark.parametrize('data1', yaml.load_all(open(r'D:\A_Python\GitProjects\ServerProject\testpublicrep\test221010\test/yml/erroruser.yml','r',encoding='utf-8')), )
     def test_02_loginfail(self,data1):
+
         # 组装数据
         with allure.step("添加请求头"):
             header = {
@@ -160,6 +160,7 @@ class TestLogin:
     #判断游客是否生成成功
     @allure.story('生成游客账号成功')
     def test_03_tourist_register(self,touristdata):
+
         with allure.step('查看游客账号'):
             print('输出游客')
         print(touristdata)

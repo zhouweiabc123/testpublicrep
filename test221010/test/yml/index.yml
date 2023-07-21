@@ -1,5 +1,36 @@
 -
-  api: 'https://isp-dev.hhycdk.com/login/index'
-  "snKey": "h0413"
-  "zoneKey": "frx_fzml"
-  "tsKey": "fangZhouGH"
+  api: '/login/index'
+  tsKey: "fangZhouGH"
+  zoneKey: "frx_fzml"
+  snKey: "h0200"
+  game32dev:
+    indexId: "d5e3f5144ef24149aba4ab6fff3cceee"
+    indexIddev: ""
+    envKey: "H5"
+    snKey: "h0200"
+    zoneKey: "frx_fzml"
+    tsKey: "fangZhouGH"
+  #你梦到
+  game37dev:
+    indexId: "8951114d12cf48279eea565852391519"
+    indexIddev: ""
+    envKey: "H5"
+    snKey: "h0436"
+    zoneKey: "frx_fzml"
+    tsKey: "fangZhouGH"
+
+  game79dev:
+    indexId: "4afc2be29e964102a0dee533a0412220"
+    indexIddev: ""
+    envKey: "H5"
+    snKey: "h0336"
+    zoneKey: "frx_fzml"
+    tsKey: "fangZhouGH"
+
+  game80dev:
+    indexId: "8951114d12cf48279eea565852391519"
+    indexIddev: ""
+    envKey: "H5"
+    snKey: "h0475"
+    zoneKey: "frx_fzml"
+    tsKey: "fangZhouGH"

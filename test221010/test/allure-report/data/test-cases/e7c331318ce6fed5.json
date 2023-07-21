@@ -1,0 +1,156 @@
+{
+  "uid" : "e7c331318ce6fed5",
+  "name" : "test_06_tourist_setpwd[pwddata0]",
+  "fullName" : "test_LoginID32qw.TestQingWeng#test_06_tourist_setpwd",
+  "historyId" : "2d8c2472220714e8a2aff0fb09ddc09c",
+  "time" : {
+    "start" : 1689733301898,
+    "stop" : 1689733302263,
+    "duration" : 365
+  },
+  "description" : "请问你为啥这么厉害",
+  "descriptionHtml" : "<p>请问你为啥这么厉害</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "touristdata",
+    "time" : {
+      "start" : 1689733299766,
+      "stop" : 1689733300304,
+      "duration" : 538
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "get_token",
+    "time" : {
+      "start" : 1689733301549,
+      "stop" : 1689733301898,
+      "duration" : 349
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "添加请求头",
+      "time" : {
+        "start" : 1689733301551,
+        "stop" : 1689733301551,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "发送请求",
+      "time" : {
+        "start" : 1689733301551,
+        "stop" : 1689733301898,
+        "duration" : 347
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 2
+  } ],
+  "testStage" : {
+    "description" : "请问你为啥这么厉害",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "获取要修改的账号token",
+      "time" : {
+        "start" : 1689733301899,
+        "stop" : 1689733301899,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "修改密码成功"
+  }, {
+    "name" : "epic",
+    "value" : "X项目请问游戏"
+  }, {
+    "name" : "feature",
+    "value" : "请问登录注册模块"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "suite",
+    "value" : "test_LoginID32qw"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestQingWeng"
+  }, {
+    "name" : "host",
+    "value" : "adminzw"
+  }, {
+    "name" : "thread",
+    "value" : "8972-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_LoginID32qw"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "pwddata",
+    "value" : "[{'api': '/account/updatePasswordByToken', 'logapi': '/sdkLogin/playerAccount', 'newPassword': 'abcdefg', 'erroPassword': 'wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwWWWWW'}]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e7c331318ce6fed5.json",
+  "parameterValues" : [ "[{'api': '/account/updatePasswordByToken', 'logapi': '/sdkLogin/playerAccount', 'newPassword': 'abcdefg', 'erroPassword': 'wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwWWWWW'}]" ]
+}

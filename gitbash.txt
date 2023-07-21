@@ -211,3 +211,138 @@
   234  git config -l | grep http.postbuffer
   235  history
 
+    1  git status
+    2  git push origin main
+    3  ll
+    4  ls
+    5  git status
+    6  ls
+    7  ls ../
+    8  pwd
+    9  https://github.com/zhouweiabc123/testpublicrep.git
+   10  https://github.com/zhouweiabc123/testpublicrep.git
+   11  clone https://github.com/zhouweiabc123/testpublicrep.git
+   12  git clone https://github.com/zhouweiabc123/testpublicrep.git
+   13  git branch
+   14  git status
+   15  git status
+   16  git init
+   17  git status
+   18  git add .
+   19  git status
+   20  git status
+   21  git add .
+   22  git commit -m"测试推送"
+   23  git push
+   24  git push
+   25  git push
+   26  git push
+   27  git push
+   28  git push
+   29  git commint -m"测试提交"
+   30  git help
+   31  git commit -m"测试提交"
+   32  git config --global user.email "958227254@qq.com"
+   33  git config --global user.name "zhouweiabc123"
+   34  git commit -m"测试提交"
+   35  git status
+   36  git push .
+   37  git push
+   38  git push
+   39  git push
+   40  git push origin main
+   41  git push -u origin main
+   42  historis
+   43  git history
+   44  git histories
+   45  history
+   46  git status
+   47  git add .
+   48  git status
+   49  git commit -m"第一次测试提交本地分支"
+   50  git status
+   51  git branch
+   52  ls
+   53  ls -a
+   54  git branch
+   55  pwd
+   56  ls
+   57  git clone https://github.com/zhouweiabc123/WEBDJ.git
+   58  git clone https://github.com/zhouweiabc123/MyPrivateFile.git
+   59  git status
+   60  git status
+   61  git status
+   62  git status
+   63  git add .
+   64  git commit -m"提交在笔记本更新的代码，开始封装UI自动化"
+   65  git push origin -u main
+   66  git status
+   67  git version
+   68  git status
+   69  git add .
+   70  git add .
+   71  git status
+   72  git commit -m"增加本地笔记本更新的DJ项目代码"
+   73  git status
+   74  git push origin -u main
+   75  git push
+   76  git status
+   77  git status
+   78  git add sdj/.
+   79  git status
+   80  git sattus
+   81  git satus
+   82  git status
+   83  git add .
+   84  git status
+   85  git add .
+   86  git status
+   87  git status
+   88  git pull
+   89  git add .
+   90  git add .
+   91  git commit -m"提交笔记本DJ代码"
+   92  git status
+   93  git push origin -u main
+   94  git status
+   95  git status
+   96  git status
+   97  git status
+   98  gitstatus
+   99  git status
+  100  git add 
+  101  git add 
+  102  git add .
+  103  git status
+  104  git commit -m"提交XMind转Excel代码模块"
+  105  git push origin -u main
+  106  git status
+  107  git add .
+  108  git status
+  109  git commit -m"提交注册登录页WEB操作和验证码识别代码"
+  110  git push origin -u main
+  111  git status
+  112  git status
+  113  git add .
+  114  git status
+  115  git commit -m"提交游戏主要操作封装以及jenkins构建部分代码修改"
+  116  git push origin to main
+  117  git push
+  118  git history
+  119  history
+  120  git push origin -u main
+  121  git config --global http.proxy
+  122  env | grep -l proxy
+  123  git status
+  124  git push
+  125  git push origin -u main
+  126  git push origin -u main
+  127  git config --global --unset http.proxy
+  128  git config --global --unset https.proxy
+  129  git push origin -u main
+  130  ll
+  131  ls
+  132  cat gitbash.txt | wc -l
+  133  git history
+  134  history
+  135  history >> gitbash.txt 

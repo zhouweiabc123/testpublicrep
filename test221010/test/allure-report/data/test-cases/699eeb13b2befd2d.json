@@ -1,0 +1,86 @@
+{
+  "uid" : "699eeb13b2befd2d",
+  "name" : "test_04_usedata[3排第三]",
+  "fullName" : "test_LoginApi.TestLogin#test_04_usedata",
+  "historyId" : "2d94ba154d856208644e6de4ed493eaa",
+  "time" : {
+    "start" : 1689733295979,
+    "stop" : 1689733295979,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 3 < 1",
+  "statusTrace" : "self = <test221010.test.test_LoginApi.TestLogin object at 0x0000027C87552AF0>\nlogindata = 3\n\n    @allure.feature('参数传入模块')\n    def test_04_usedata(self,logindata):\n        print(logindata)\n>       assert logindata < 1\nE       assert 3 < 1\n\ntest_LoginApi.py:627: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "logindata",
+    "time" : {
+      "start" : 1689733295978,
+      "stop" : 1689733295978,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录注册模块"
+  }, {
+    "name" : "feature",
+    "value" : "参数传入模块"
+  }, {
+    "name" : "epic",
+    "value" : "X项目除妖和戮仙战纪"
+  }, {
+    "name" : "suite",
+    "value" : "test_LoginApi"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "adminzw"
+  }, {
+    "name" : "thread",
+    "value" : "8972-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_LoginApi"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "logindata",
+    "value" : "3"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "699eeb13b2befd2d.json",
+  "parameterValues" : [ "3" ]
+}

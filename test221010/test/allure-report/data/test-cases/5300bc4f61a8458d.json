@@ -1,0 +1,141 @@
+{
+  "uid" : "5300bc4f61a8458d",
+  "name" : "test_10_payChek_success[paydata0]",
+  "fullName" : "test_LoginID80qw.TestDouZhen#test_10_payChek_success",
+  "historyId" : "c1c8c9ff277cb9cbd34ac7f224f1722d",
+  "time" : {
+    "start" : 1689733266864,
+    "stop" : 1689733267185,
+    "duration" : 321
+  },
+  "description" : "斗争的魔气",
+  "descriptionHtml" : "<p>斗争的魔气</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "touristdata",
+    "time" : {
+      "start" : 1689733262062,
+      "stop" : 1689733262410,
+      "duration" : 348
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "new_tourist_data",
+    "time" : {
+      "start" : 1689733266523,
+      "stop" : 1689733266864,
+      "duration" : 341
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "发送请求",
+      "time" : {
+        "start" : 1689733266526,
+        "stop" : 1689733266864,
+        "duration" : 338
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 1
+  } ],
+  "testStage" : {
+    "description" : "斗争的魔气",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "发送请求",
+      "time" : {
+        "start" : 1689733266864,
+        "stop" : 1689733267185,
+        "duration" : 321
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录注册模块"
+  }, {
+    "name" : "epic",
+    "value" : "X项目斗争游戏"
+  }, {
+    "name" : "story",
+    "value" : "18岁成年，支付校验通过"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "suite",
+    "value" : "test_LoginID80qw"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDouZhen"
+  }, {
+    "name" : "host",
+    "value" : "adminzw"
+  }, {
+    "name" : "thread",
+    "value" : "8972-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_LoginID80qw"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "paydata",
+    "value" : "[{'api': '/indulge/payCheck', 'age': '18', 'big_age': '16', 'midl_age': '11', 'small_age': '6', 'amount': '19800', 'except_bigstr': '游戏中16周岁以上未满18周岁的用户', 'except_midlstr': '游戏中8周岁以上未满16周岁的用户', 'except_smallstr': '本游戏不为未满8周岁的用户', 'indulge': 1}]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5300bc4f61a8458d.json",
+  "parameterValues" : [ "[{'api': '/indulge/payCheck', 'age': '18', 'big_age': '16', 'midl_age': '11', 'small_age': '6', 'amount': '19800', 'except_bigstr': '游戏中16周岁以上未满18周岁的用户', 'except_midlstr': '游戏中8周岁以上未满16周岁的用户', 'except_smallstr': '本游戏不为未满8周岁的用户', 'indulge': 1}]" ]
+}

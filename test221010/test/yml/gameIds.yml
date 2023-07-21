@@ -1,0 +1,8 @@
+-
+  game32: "32"
+  game33: "33"
+  game37: "37"
+  game79: "79"
+  game80: "80"
+  dev: 'true'
+#dev True,表示可以使用dev环境，False表示只用线上环境

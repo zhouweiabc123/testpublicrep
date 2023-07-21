@@ -1,0 +1,246 @@
+{
+  "uid" : "f587af03730ca0bf",
+  "name" : "test_14_creat_order[order_data0]",
+  "fullName" : "test_LoginID80qw.TestDouZhen#test_14_creat_order",
+  "historyId" : "892a73ebff30d0215291da71033e324d",
+  "time" : {
+    "start" : 1689733270804,
+    "stop" : 1689733271153,
+    "duration" : 349
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "touristdata",
+    "time" : {
+      "start" : 1689733262062,
+      "stop" : 1689733262410,
+      "duration" : 348
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "order_login",
+    "time" : {
+      "start" : 1689733269318,
+      "stop" : 1689733269707,
+      "duration" : 389
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "添加请求头",
+      "time" : {
+        "start" : 1689733269320,
+        "stop" : 1689733269320,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "发送请求",
+      "time" : {
+        "start" : 1689733269320,
+        "stop" : 1689733269707,
+        "duration" : 387
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 2
+  }, {
+    "name" : "mk_time",
+    "time" : {
+      "start" : 1689733269707,
+      "stop" : 1689733269707,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "new_tourist_data",
+    "time" : {
+      "start" : 1689733269707,
+      "stop" : 1689733270089,
+      "duration" : 382
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "发送请求",
+      "time" : {
+        "start" : 1689733269709,
+        "stop" : 1689733270089,
+        "duration" : 380
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 1
+  }, {
+    "name" : "get_age",
+    "time" : {
+      "start" : 1689733270090,
+      "stop" : 1689733270446,
+      "duration" : 356
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "order_openId",
+    "time" : {
+      "start" : 1689733270446,
+      "stop" : 1689733270804,
+      "duration" : 358
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "order_num",
+    "time" : {
+      "start" : 1689733270804,
+      "stop" : 1689733270804,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "组装数据",
+      "time" : {
+        "start" : 1689733270807,
+        "stop" : 1689733270807,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "尝试创建订单，签名加密错误，创建失败"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "订单模块"
+  }, {
+    "name" : "feature",
+    "value" : "登录注册模块"
+  }, {
+    "name" : "epic",
+    "value" : "X项目斗争游戏"
+  }, {
+    "name" : "suite",
+    "value" : "test_LoginID80qw"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDouZhen"
+  }, {
+    "name" : "host",
+    "value" : "adminzw"
+  }, {
+    "name" : "thread",
+    "value" : "8972-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_LoginID80qw"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "order_data",
+    "value" : "{'api': '/pay/create', 'devgame32': {'extension': 'http://192.168.5.33:30201', 'curDayChargeCount': '0', 'rmb': '600', 'gameOrderNo': 'Test8X', 'productName': '60仙玉', 'vipGrade': '4', 'areaName': 'xfzml.s99998', 'roleLevel': '161', 'sn': 'xfzml', 'sumChargeCount': '2', 'timestamp': '1688462664', 'gameId': '107', 'amount': '100', 'productId': '101', 'roleId': '12613819', 'count': '5826', 'productDescribe': '60仙玉', 'version': '2', 'zk': 'frx_fzml', 'regTime': '1682071973', 'areaId': '99998', 'sumCharge': '199', 'roleName': 'S99998.天泽延龙英喆', 'cpExtend': 'http://192.168.5.33:30201', 'continuityLoginDay': '1', 'snKey': 'h0200', 'zoneKey': 'frx_fzml', 'tsKey': 'fangZhouGH', 'envKey': 'H5'}, 'devgame37': {'extension': 'http://192.168.5.33:30201', 'curDayChargeCount': '0', 'rmb': '600', 'gameOrderNo': 'Test8X', 'productName': '60仙玉', 'vipGrade': '4', 'areaName': 'xfzml.s99998', 'roleLevel': '161', 'sn': 'xfzml', 'sumChargeCount': '2', 'timestamp': '1688462664', 'gameId': '107', 'amount': '100', 'productId': '101', 'roleId': '12613819', 'count': '5826', 'productDescribe': '60仙玉', 'version': '2', 'zk': 'frx_fzml', 'regTime': '1682071973', 'areaId': '99998', 'sumCharge': '199', 'roleName': 'S99998.天泽延龙英喆', 'cpExtend': 'http://192.168.5.33:30201', 'continuityLoginDay': '1', 'snKey': 'h0336', 'zoneKey': 'frx_fzml', 'tsKey': 'fangZhouGH', 'envKey': 'H5'}, 'devgame79': {'extension': 'http://192.168.5.33:30201', 'curDayChargeCount': '0', 'rmb': '600', 'gameOrderNo': 'Test8X', 'productName': '60仙玉', 'vipGrade': '4', 'areaName': 'xfzml.s99998', 'roleLevel': '161', 'sn': 'xfzml', 'sumChargeCount': '2', 'timestamp': '1688462664', 'gameId': '107', 'amount': '100', 'productId': '101', 'roleId': '12613819', 'count': '5826', 'productDescribe': '60仙玉', 'version': '2', 'zk': 'frx_fzml', 'regTime': '1682071973', 'areaId': '99998', 'sumCharge': '199', 'roleName': 'S99998.天泽延龙英喆', 'cpExtend': 'http://192.168.5.33:30201', 'continuityLoginDay': '1', 'snKey': 'h0336', 'zoneKey': 'frx_fzml', 'tsKey': 'fangZhouGH', 'envKey': 'H5'}, 'devgame80': {'extension': 'http://192.168.5.33:30201', 'curDayChargeCount': '0', 'rmb': '600', 'gameOrderNo': 'Test8X', 'productName': '60仙玉', 'vipGrade': '4', 'areaName': 'xfzml.s99998', 'roleLevel': '161', 'sn': 'xfzml', 'sumChargeCount': '2', 'timestamp': '1688462664', 'gameId': '107', 'amount': '100', 'productId': '101', 'roleId': '12613819', 'count': '5826', 'productDescribe': '60仙玉', 'version': '2', 'zk': 'frx_fzml', 'regTime': '1682071973', 'areaId': '99998', 'sumCharge': '199', 'roleName': 'S99998.天泽延龙英喆', 'cpExtend': 'http://192.168.5.33:30201', 'continuityLoginDay': '1', 'snKey': 'h0336', 'zoneKey': 'frx_fzml', 'tsKey': 'fangZhouGH', 'envKey': 'H5'}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f587af03730ca0bf.json",
+  "parameterValues" : [ "{'api': '/pay/create', 'devgame32': {'extension': 'http://192.168.5.33:30201', 'curDayChargeCount': '0', 'rmb': '600', 'gameOrderNo': 'Test8X', 'productName': '60仙玉', 'vipGrade': '4', 'areaName': 'xfzml.s99998', 'roleLevel': '161', 'sn': 'xfzml', 'sumChargeCount': '2', 'timestamp': '1688462664', 'gameId': '107', 'amount': '100', 'productId': '101', 'roleId': '12613819', 'count': '5826', 'productDescribe': '60仙玉', 'version': '2', 'zk': 'frx_fzml', 'regTime': '1682071973', 'areaId': '99998', 'sumCharge': '199', 'roleName': 'S99998.天泽延龙英喆', 'cpExtend': 'http://192.168.5.33:30201', 'continuityLoginDay': '1', 'snKey': 'h0200', 'zoneKey': 'frx_fzml', 'tsKey': 'fangZhouGH', 'envKey': 'H5'}, 'devgame37': {'extension': 'http://192.168.5.33:30201', 'curDayChargeCount': '0', 'rmb': '600', 'gameOrderNo': 'Test8X', 'productName': '60仙玉', 'vipGrade': '4', 'areaName': 'xfzml.s99998', 'roleLevel': '161', 'sn': 'xfzml', 'sumChargeCount': '2', 'timestamp': '1688462664', 'gameId': '107', 'amount': '100', 'productId': '101', 'roleId': '12613819', 'count': '5826', 'productDescribe': '60仙玉', 'version': '2', 'zk': 'frx_fzml', 'regTime': '1682071973', 'areaId': '99998', 'sumCharge': '199', 'roleName': 'S99998.天泽延龙英喆', 'cpExtend': 'http://192.168.5.33:30201', 'continuityLoginDay': '1', 'snKey': 'h0336', 'zoneKey': 'frx_fzml', 'tsKey': 'fangZhouGH', 'envKey': 'H5'}, 'devgame79': {'extension': 'http://192.168.5.33:30201', 'curDayChargeCount': '0', 'rmb': '600', 'gameOrderNo': 'Test8X', 'productName': '60仙玉', 'vipGrade': '4', 'areaName': 'xfzml.s99998', 'roleLevel': '161', 'sn': 'xfzml', 'sumChargeCount': '2', 'timestamp': '1688462664', 'gameId': '107', 'amount': '100', 'productId': '101', 'roleId': '12613819', 'count': '5826', 'productDescribe': '60仙玉', 'version': '2', 'zk': 'frx_fzml', 'regTime': '1682071973', 'areaId': '99998', 'sumCharge': '199', 'roleName': 'S99998.天泽延龙英喆', 'cpExtend': 'http://192.168.5.33:30201', 'continuityLoginDay': '1', 'snKey': 'h0336', 'zoneKey': 'frx_fzml', 'tsKey': 'fangZhouGH', 'envKey': 'H5'}, 'devgame80': {'extension': 'http://192.168.5.33:30201', 'curDayChargeCount': '0', 'rmb': '600', 'gameOrderNo': 'Test8X', 'productName': '60仙玉', 'vipGrade': '4', 'areaName': 'xfzml.s99998', 'roleLevel': '161', 'sn': 'xfzml', 'sumChargeCount': '2', 'timestamp': '1688462664', 'gameId': '107', 'amount': '100', 'productId': '101', 'roleId': '12613819', 'count': '5826', 'productDescribe': '60仙玉', 'version': '2', 'zk': 'frx_fzml', 'regTime': '1682071973', 'areaId': '99998', 'sumCharge': '199', 'roleName': 'S99998.天泽延龙英喆', 'cpExtend': 'http://192.168.5.33:30201', 'continuityLoginDay': '1', 'snKey': 'h0336', 'zoneKey': 'frx_fzml', 'tsKey': 'fangZhouGH', 'envKey': 'H5'}}" ]
+}

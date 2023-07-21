@@ -1,0 +1,136 @@
+{
+  "uid" : "bacec3b5bfe1715c",
+  "name" : "test_05_tourist_realuser[realdata0]",
+  "fullName" : "test_LoginID37qw.TestDouHun#test_05_tourist_realuser",
+  "historyId" : "698034dd46a2c09b7f5f094d4350dfd4",
+  "time" : {
+    "start" : 1689733314806,
+    "stop" : 1689733315170,
+    "duration" : 364
+  },
+  "description" : "斗魂大陆",
+  "descriptionHtml" : "<p>斗魂大陆</p>\n",
+  "status" : "broken",
+  "statusMessage" : "TypeError: 'NoneType' object is not subscriptable",
+  "statusTrace" : "self = <test221010.test.test_LoginID37qw.TestDouHun object at 0x0000027C86C376D0>\nrealdata = [{'api': '/realName/certification', 'idCard': '340302201108031051', 'realName': '陈浩'}, {'gamId': '666666'}]\nget_token = 'eyJhbGciOiJIUzUxMiJ9.eyJnYW1lSWQiOjM3LCJhY2NvdW50SWQiOiIxMWVlMjVkYjA2ZjAyMjM4NTI1NDAwOWMyZjA5YmYzYyIsImV4cGlyZVRpbWUi...0VHlwZSI6ImF1dGhvcml6YXRpb24ifQ.5RSWVYO14uXw4QcC0Ab03Q-tB9cMMffop-Evokg46hg3juWXZbere3uK58OVgcAQbRDqzqaqEvimXeHRYQh7iw'\n\n    @allure.story(\"实名认证开启，未实名认证需实名认证成功\")\n    @pytest.mark.parametrize('realdata', yaml.load_all(open(fr'{yml_path}/touristreal.yml', 'r', encoding='utf-8')))\n    @allure.severity('critical')\n    def test_05_tourist_realuser(self,realdata,get_token):\n        '''斗魂大陆'''\n        #组装数据\n        header = {'token':get_token,'User-Agent': \"Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1\"}\n        #发送请求\n        res = requests.post(url=self.configurl+realdata[0]['api'],json={\n        \"realName\": realdata[0][\"realName\"],\n        \"idCard\": realdata[0][\"idCard\"],\n        \"apothecary_inexcusable_willful\": None,\n        \"fast_shelve\": None,\n        \"rhyme_systolic\": None\n        },headers=header)\n        response = res.json()\n        mylog.mylog.info(response)\n        #断言 ['data']['indulgeCd']\n>       indulgeCd = response['data']['indulgeCd']\nE       TypeError: 'NoneType' object is not subscriptable\n\ntest_LoginID37qw.py:254: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "touristdata",
+    "time" : {
+      "start" : 1689733313656,
+      "stop" : 1689733314003,
+      "duration" : 347
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "get_token",
+    "time" : {
+      "start" : 1689733314421,
+      "stop" : 1689733314806,
+      "duration" : 385
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "添加请求头",
+      "time" : {
+        "start" : 1689733314422,
+        "stop" : 1689733314422,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "发送请求",
+      "time" : {
+        "start" : 1689733314422,
+        "stop" : 1689733314805,
+        "duration" : 383
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 2
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "斗魂登录注册模块"
+  }, {
+    "name" : "story",
+    "value" : "实名认证开启，未实名认证需实名认证成功"
+  }, {
+    "name" : "epic",
+    "value" : "X项目斗魂游戏"
+  }, {
+    "name" : "suite",
+    "value" : "test_LoginID37qw"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDouHun"
+  }, {
+    "name" : "host",
+    "value" : "adminzw"
+  }, {
+    "name" : "thread",
+    "value" : "8972-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_LoginID37qw"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "realdata",
+    "value" : "[{'api': '/realName/certification', 'idCard': '340302201108031051', 'realName': '陈浩'}, {'gamId': '666666'}]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "bacec3b5bfe1715c.json",
+  "parameterValues" : [ "[{'api': '/realName/certification', 'idCard': '340302201108031051', 'realName': '陈浩'}, {'gamId': '666666'}]" ]
+}

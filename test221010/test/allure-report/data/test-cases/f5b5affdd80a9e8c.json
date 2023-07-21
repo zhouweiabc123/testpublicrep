@@ -1,0 +1,129 @@
+{
+  "uid" : "f5b5affdd80a9e8c",
+  "name" : "test_16_loginMethodGet[37斗魂]",
+  "fullName" : "test_LoginID80qw.TestDouZhen#test_16_loginMethodGet",
+  "historyId" : "5158b3c0d6a072f6fa357e16e44c96d0",
+  "time" : {
+    "start" : 1689733271822,
+    "stop" : 1689733272149,
+    "duration" : 327
+  },
+  "description" : "\n        查询游戏登录注册方法是否正常，断言code\n        ",
+  "descriptionHtml" : "<pre><code>    查询游戏登录注册方法是否正常，断言code\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "gameids_data",
+    "time" : {
+      "start" : 1689733271821,
+      "stop" : 1689733271821,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "\n        查询游戏登录注册方法是否正常，断言code\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "发送请求",
+      "time" : {
+        "start" : 1689733271822,
+        "stop" : 1689733272149,
+        "duration" : 327
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "断言",
+      "time" : {
+        "start" : 1689733272149,
+        "stop" : 1689733272149,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "登录开关查询控制"
+  }, {
+    "name" : "feature",
+    "value" : "登录注册开关控制模块"
+  }, {
+    "name" : "feature",
+    "value" : "登录注册模块"
+  }, {
+    "name" : "epic",
+    "value" : "X项目斗争游戏"
+  }, {
+    "name" : "severity",
+    "value" : "minor"
+  }, {
+    "name" : "suite",
+    "value" : "test_LoginID80qw"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDouZhen"
+  }, {
+    "name" : "host",
+    "value" : "adminzw"
+  }, {
+    "name" : "thread",
+    "value" : "8972-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_LoginID80qw"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "gameids_data",
+    "value" : "'37'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "minor",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f5b5affdd80a9e8c.json",
+  "parameterValues" : [ "'37'" ]
+}

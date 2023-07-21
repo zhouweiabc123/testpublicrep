@@ -1,0 +1,141 @@
+{
+  "uid" : "a084d83714ada4da",
+  "name" : "test_02_loginfail[data10]",
+  "fullName" : "test_LoginID37qw.TestDouHun#test_02_loginfail",
+  "historyId" : "01c837d8639d4e427129ffecf68ff61e",
+  "time" : {
+    "start" : 1689733312896,
+    "stop" : 1689733313652,
+    "duration" : 756
+  },
+  "description" : "斗魂大陆",
+  "descriptionHtml" : "<p>斗魂大陆</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "斗魂大陆",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "添加请求头",
+      "time" : {
+        "start" : 1689733312897,
+        "stop" : 1689733312897,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "发送请求",
+      "time" : {
+        "start" : 1689733312897,
+        "stop" : 1689733313241,
+        "duration" : 344
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "发送请求",
+      "time" : {
+        "start" : 1689733313241,
+        "stop" : 1689733313652,
+        "duration" : 411
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "断言",
+      "time" : {
+        "start" : 1689733313652,
+        "stop" : 1689733313652,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "斗魂登录注册模块"
+  }, {
+    "name" : "story",
+    "value" : "多组数据登录失败"
+  }, {
+    "name" : "epic",
+    "value" : "X项目斗魂游戏"
+  }, {
+    "name" : "suite",
+    "value" : "test_LoginID37qw"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDouHun"
+  }, {
+    "name" : "host",
+    "value" : "adminzw"
+  }, {
+    "name" : "thread",
+    "value" : "8972-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_LoginID37qw"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data1",
+    "value" : "[{'api': '/sdkLogin/playerAccount', 'password': '123456', 'user': '18598019760zw', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJnYW1lSWQiOjczLCJhY2NvdW50SWQiOiIxMWVkNjZmNGZlM2VkZjIxNTI1NDAwOWMyZjA5Yjc3MCIsImV4cGlyZVRpbWUiOjE2NjkzNTAxMzcsImdyYW50VHlwZSI6ImF1dGhvcml6YXRpb24ifQ.QpJX0_WxHUrq2iG47Zs134jrvJnucFjXICOKAr2UoFfbNSSViWShdG2mRDIks9SJxGgmK3zmKsWva1jAmEWVtg'}, {'api': '/sdkLogin/playerAccount', 'password': '123456zw', 'user': '18598019760', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJnYW1lSWQiOjczLCJhY2NvdW50SWQiOiIxMWVkNjZmNGZlM2VkZjIxNTI1NDAwOWMyZjA5Yjc3MCIsImV4cGlyZVRpbWUiOjE2NjkzNTAxMzcsImdyYW50VHlwZSI6ImF1dGhvcml6YXRpb24ifQ.QpJX0_WxHUrq2iG47Zs134jrvJnucFjXICOKAr2UoFfbNSSViWShdG2mRDIks9SJxGgmK3zmKsWva1jAmEWVtg'}]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a084d83714ada4da.json",
+  "parameterValues" : [ "[{'api': '/sdkLogin/playerAccount', 'password': '123456', 'user': '18598019760zw', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJnYW1lSWQiOjczLCJhY2NvdW50SWQiOiIxMWVkNjZmNGZlM2VkZjIxNTI1NDAwOWMyZjA5Yjc3MCIsImV4cGlyZVRpbWUiOjE2NjkzNTAxMzcsImdyYW50VHlwZSI6ImF1dGhvcml6YXRpb24ifQ.QpJX0_WxHUrq2iG47Zs134jrvJnucFjXICOKAr2UoFfbNSSViWShdG2mRDIks9SJxGgmK3zmKsWva1jAmEWVtg'}, {'api': '/sdkLogin/playerAccount', 'password': '123456zw', 'user': '18598019760', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJnYW1lSWQiOjczLCJhY2NvdW50SWQiOiIxMWVkNjZmNGZlM2VkZjIxNTI1NDAwOWMyZjA5Yjc3MCIsImV4cGlyZVRpbWUiOjE2NjkzNTAxMzcsImdyYW50VHlwZSI6ImF1dGhvcml6YXRpb24ifQ.QpJX0_WxHUrq2iG47Zs134jrvJnucFjXICOKAr2UoFfbNSSViWShdG2mRDIks9SJxGgmK3zmKsWva1jAmEWVtg'}]" ]
+}

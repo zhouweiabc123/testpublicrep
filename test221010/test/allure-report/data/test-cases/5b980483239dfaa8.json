@@ -1,0 +1,126 @@
+{
+  "uid" : "5b980483239dfaa8",
+  "name" : "test_01_login[data0]",
+  "fullName" : "test_LoginID32qw.TestQingWeng#test_01_login",
+  "historyId" : "7f4ef60e1611d6179397be01e80613df",
+  "time" : {
+    "start" : 1689733298702,
+    "stop" : 1689733299058,
+    "duration" : 356
+  },
+  "description" : "请问你为啥这么厉害",
+  "descriptionHtml" : "<p>请问你为啥这么厉害</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "请问你为啥这么厉害",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "添加请求头",
+      "time" : {
+        "start" : 1689733298702,
+        "stop" : 1689733298702,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "发送请求",
+      "time" : {
+        "start" : 1689733298702,
+        "stop" : 1689733299058,
+        "duration" : 356
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "断言",
+      "time" : {
+        "start" : 1689733299058,
+        "stop" : 1689733299058,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "请问登录注册模块"
+  }, {
+    "name" : "epic",
+    "value" : "X项目请问游戏"
+  }, {
+    "name" : "story",
+    "value" : "密码正确，登录成功"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "suite",
+    "value" : "test_LoginID32qw"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestQingWeng"
+  }, {
+    "name" : "host",
+    "value" : "adminzw"
+  }, {
+    "name" : "thread",
+    "value" : "8972-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_LoginID32qw"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "[{'api': '/sdkLogin/playerAccount', 'password': '123456', 'user': '18598019760', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJnYW1lSWQiOjczLCJhY2NvdW50SWQiOiIxMWVkNjZmNGZlM2VkZjIxNTI1NDAwOWMyZjA5Yjc3MCIsImV4cGlyZVRpbWUiOjE2NjkzNTAxMzcsImdyYW50VHlwZSI6ImF1dGhvcml6YXRpb24ifQ.QpJX0_WxHUrq2iG47Zs134jrvJnucFjXICOKAr2UoFfbNSSViWShdG2mRDIks9SJxGgmK3zmKsWva1jAmEWVtg', 'except_value': '0', 'game32dev': {'user': '18598019760', 'password': '123456'}, 'game37dev': {'user': '18598019760', 'password': '123456'}, 'game79dev': {'user': '18598019760', 'password': '123456'}, 'game80dev': {'user': '18598019760', 'password': '123456'}}]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5b980483239dfaa8.json",
+  "parameterValues" : [ "[{'api': '/sdkLogin/playerAccount', 'password': '123456', 'user': '18598019760', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJnYW1lSWQiOjczLCJhY2NvdW50SWQiOiIxMWVkNjZmNGZlM2VkZjIxNTI1NDAwOWMyZjA5Yjc3MCIsImV4cGlyZVRpbWUiOjE2NjkzNTAxMzcsImdyYW50VHlwZSI6ImF1dGhvcml6YXRpb24ifQ.QpJX0_WxHUrq2iG47Zs134jrvJnucFjXICOKAr2UoFfbNSSViWShdG2mRDIks9SJxGgmK3zmKsWva1jAmEWVtg', 'except_value': '0', 'game32dev': {'user': '18598019760', 'password': '123456'}, 'game37dev': {'user': '18598019760', 'password': '123456'}, 'game79dev': {'user': '18598019760', 'password': '123456'}, 'game80dev': {'user': '18598019760', 'password': '123456'}}]" ]
+}

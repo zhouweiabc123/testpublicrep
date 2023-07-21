@@ -1,7 +1,20 @@
 -
   api: '/sdkLogin/playerAccount'
   password: '123456'
-  user: 'FZSLc53ud9yu'
+  user: '18598019760'
   token: "eyJhbGciOiJIUzUxMiJ9.eyJnYW1lSWQiOjczLCJhY2NvdW50SWQiOiIxMWVkNjZmNGZlM2VkZjIxNTI1NDAwOWMyZjA5Yjc3MCIsImV4cGlyZVRpbWUiOjE2NjkzNTAxMzcsImdyYW50VHlwZSI6ImF1dGhvcml6YXRpb24ifQ.QpJX0_WxHUrq2iG47Zs134jrvJnucFjXICOKAr2UoFfbNSSViWShdG2mRDIks9SJxGgmK3zmKsWva1jAmEWVtg"
   except_value: '0' #1代表True,0代表False
+  game32dev:
+    user: "18598019760"
+    password: "123456"
+  game37dev:
+    user: "18598019760"
+    password: "123456"
+  game79dev:
+    user: "18598019760"
+    password: "123456"
+  game80dev:
+    user: "18598019760"
+    password: "123456"
+
 

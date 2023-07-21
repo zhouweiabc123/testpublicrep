@@ -1,0 +1,8 @@
+-
+  api: 'https://login-xfzml.skybluek.com/client/recent'
+  dev_api: 'https://login-xfzml-dev2.szfangzhouhd.com/client/recent'
+  zoneKey: 'frx_fzml'
+  snKey: 'h0200'
+  os: 'ios'
+  isHttps: 'true'
+  htgran: '0.49902638745861294'

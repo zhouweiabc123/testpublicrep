@@ -1,0 +1,1553 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_LoginID80qw",
+    "children" : [ {
+      "name" : "TestDouZhen",
+      "children" : [ {
+        "name" : "test_01_login[data0]",
+        "uid" : "4152da5b7975602e",
+        "parentUid" : "1e90f9143c880b1eb2c11a17e450ba71",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733260937,
+          "stop" : 1689733261420,
+          "duration" : 483
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/sdkLogin/playerAccount', 'password': '123456', 'user': '18598019760', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJnYW1lSWQiOjczLCJhY2NvdW50SWQiOiIxMWVkNjZmNGZlM2VkZjIxNTI1NDAwOWMyZjA5Yjc3MCIsImV4cGlyZVRpbWUiOjE2NjkzNTAxMzcsImdyYW50VHlwZSI6ImF1dGhvcml6YXRpb24ifQ.QpJX0_WxHUrq2iG47Zs134jrvJnucFjXICOKAr2UoFfbNSSViWShdG2mRDIks9SJxGgmK3zmKsWva1jAmEWVtg', 'except_value': '0', 'game32dev': {'user': '18598019760', 'password': '123456'}, 'game37dev': {'user': '18598019760', 'password': '123456'}, 'game79dev': {'user': '18598019760', 'password': '123456'}, 'game80dev': {'user': '18598019760', 'password': '123456'}}]" ]
+      }, {
+        "name" : "test_02_loginfail[data10]",
+        "uid" : "84510bea997735e8",
+        "parentUid" : "1e90f9143c880b1eb2c11a17e450ba71",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733261425,
+          "stop" : 1689733262060,
+          "duration" : 635
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/sdkLogin/playerAccount', 'password': '123456', 'user': '18598019760zw', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJnYW1lSWQiOjczLCJhY2NvdW50SWQiOiIxMWVkNjZmNGZlM2VkZjIxNTI1NDAwOWMyZjA5Yjc3MCIsImV4cGlyZVRpbWUiOjE2NjkzNTAxMzcsImdyYW50VHlwZSI6ImF1dGhvcml6YXRpb24ifQ.QpJX0_WxHUrq2iG47Zs134jrvJnucFjXICOKAr2UoFfbNSSViWShdG2mRDIks9SJxGgmK3zmKsWva1jAmEWVtg'}, {'api': '/sdkLogin/playerAccount', 'password': '123456zw', 'user': '18598019760', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJnYW1lSWQiOjczLCJhY2NvdW50SWQiOiIxMWVkNjZmNGZlM2VkZjIxNTI1NDAwOWMyZjA5Yjc3MCIsImV4cGlyZVRpbWUiOjE2NjkzNTAxMzcsImdyYW50VHlwZSI6ImF1dGhvcml6YXRpb24ifQ.QpJX0_WxHUrq2iG47Zs134jrvJnucFjXICOKAr2UoFfbNSSViWShdG2mRDIks9SJxGgmK3zmKsWva1jAmEWVtg'}]" ]
+      }, {
+        "name" : "test_03_tourist_register",
+        "uid" : "82f88bdf57480470",
+        "parentUid" : "1e90f9143c880b1eb2c11a17e450ba71",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733262411,
+          "stop" : 1689733262411,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_04_tourist_login[data0]",
+        "uid" : "fee59144839c5796",
+        "parentUid" : "1e90f9143c880b1eb2c11a17e450ba71",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733262413,
+          "stop" : 1689733262773,
+          "duration" : 360
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/sdkLogin/playerAccount', 'gameId': '73'}, {'gamId': '666666'}]" ]
+      }, {
+        "name" : "test_05_tourist_realuser[realdata0]",
+        "uid" : "e4a9b0ea36db6354",
+        "parentUid" : "1e90f9143c880b1eb2c11a17e450ba71",
+        "status" : "broken",
+        "time" : {
+          "start" : 1689733263093,
+          "stop" : 1689733263418,
+          "duration" : 325
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/realName/certification', 'idCard': '340302201108031051', 'realName': '陈浩'}, {'gamId': '666666'}]" ]
+      }, {
+        "name" : "test_06_tourist_setpwd[pwddata0]",
+        "uid" : "45fb6aaf370624e8",
+        "parentUid" : "1e90f9143c880b1eb2c11a17e450ba71",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733263853,
+          "stop" : 1689733264185,
+          "duration" : 332
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/account/updatePasswordByToken', 'logapi': '/sdkLogin/playerAccount', 'newPassword': 'abcdefg', 'erroPassword': 'wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwWWWWW'}]" ]
+      }, {
+        "name" : "test_07_newpwdLogin_tourist[newpwds0]",
+        "uid" : "f33032488331bec3",
+        "parentUid" : "1e90f9143c880b1eb2c11a17e450ba71",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733264188,
+          "stop" : 1689733264523,
+          "duration" : 335
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/account/updatePasswordByToken', 'logapi': '/sdkLogin/playerAccount', 'newPassword': 'abcdefg', 'erroPassword': 'wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwWWWWW'}]" ]
+      }, {
+        "name" : "test_08_oldpwdLoginFail_tourist[data0]",
+        "uid" : "d681abe838e07c17",
+        "parentUid" : "1e90f9143c880b1eb2c11a17e450ba71",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733264525,
+          "stop" : 1689733264850,
+          "duration" : 325
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/sdkLogin/playerAccount', 'gameId': '73'}, {'gamId': '666666'}]" ]
+      }, {
+        "name" : "test_09_sendreason_success[senddata0]",
+        "uid" : "2a38e2971b731ae",
+        "parentUid" : "1e90f9143c880b1eb2c11a17e450ba71",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733265203,
+          "stop" : 1689733265507,
+          "duration" : 304
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/info/feedback', 'content1': {'content': 'one,用户反馈了一条意见'}, 'content2': {'content': 'two,用户反馈了一条意见'}}]" ]
+      }, {
+        "name" : "test_09_sendtworeason_success[senddata0]",
+        "uid" : "886d0d7ba2d6a606",
+        "parentUid" : "1e90f9143c880b1eb2c11a17e450ba71",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733265891,
+          "stop" : 1689733266519,
+          "duration" : 628
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/info/feedback', 'content1': {'content': 'one,用户反馈了一条意见'}, 'content2': {'content': 'two,用户反馈了一条意见'}}]" ]
+      }, {
+        "name" : "test_10_payChek_success[paydata0]",
+        "uid" : "5300bc4f61a8458d",
+        "parentUid" : "1e90f9143c880b1eb2c11a17e450ba71",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733266864,
+          "stop" : 1689733267185,
+          "duration" : 321
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/indulge/payCheck', 'age': '18', 'big_age': '16', 'midl_age': '11', 'small_age': '6', 'amount': '19800', 'except_bigstr': '游戏中16周岁以上未满18周岁的用户', 'except_midlstr': '游戏中8周岁以上未满16周岁的用户', 'except_smallstr': '本游戏不为未满8周岁的用户', 'indulge': 1}]" ]
+      }, {
+        "name" : "test_11_payCheck_big_age",
+        "uid" : "5e7c420c1d34c5b2",
+        "parentUid" : "1e90f9143c880b1eb2c11a17e450ba71",
+        "status" : "failed",
+        "time" : {
+          "start" : 1689733267551,
+          "stop" : 1689733267880,
+          "duration" : 329
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_12_payCheck_midl_age",
+        "uid" : "1bfac7bd705e7bf4",
+        "parentUid" : "1e90f9143c880b1eb2c11a17e450ba71",
+        "status" : "failed",
+        "time" : {
+          "start" : 1689733268244,
+          "stop" : 1689733268604,
+          "duration" : 360
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_13_payCheck_small_age",
+        "uid" : "6c6f321187475183",
+        "parentUid" : "1e90f9143c880b1eb2c11a17e450ba71",
+        "status" : "failed",
+        "time" : {
+          "start" : 1689733268991,
+          "stop" : 1689733269302,
+          "duration" : 311
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_14_creat_order[order_data0]",
+        "uid" : "f587af03730ca0bf",
+        "parentUid" : "1e90f9143c880b1eb2c11a17e450ba71",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733270804,
+          "stop" : 1689733271153,
+          "duration" : 349
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'api': '/pay/create', 'devgame32': {'extension': 'http://192.168.5.33:30201', 'curDayChargeCount': '0', 'rmb': '600', 'gameOrderNo': 'Test8X', 'productName': '60仙玉', 'vipGrade': '4', 'areaName': 'xfzml.s99998', 'roleLevel': '161', 'sn': 'xfzml', 'sumChargeCount': '2', 'timestamp': '1688462664', 'gameId': '107', 'amount': '100', 'productId': '101', 'roleId': '12613819', 'count': '5826', 'productDescribe': '60仙玉', 'version': '2', 'zk': 'frx_fzml', 'regTime': '1682071973', 'areaId': '99998', 'sumCharge': '199', 'roleName': 'S99998.天泽延龙英喆', 'cpExtend': 'http://192.168.5.33:30201', 'continuityLoginDay': '1', 'snKey': 'h0200', 'zoneKey': 'frx_fzml', 'tsKey': 'fangZhouGH', 'envKey': 'H5'}, 'devgame37': {'extension': 'http://192.168.5.33:30201', 'curDayChargeCount': '0', 'rmb': '600', 'gameOrderNo': 'Test8X', 'productName': '60仙玉', 'vipGrade': '4', 'areaName': 'xfzml.s99998', 'roleLevel': '161', 'sn': 'xfzml', 'sumChargeCount': '2', 'timestamp': '1688462664', 'gameId': '107', 'amount': '100', 'productId': '101', 'roleId': '12613819', 'count': '5826', 'productDescribe': '60仙玉', 'version': '2', 'zk': 'frx_fzml', 'regTime': '1682071973', 'areaId': '99998', 'sumCharge': '199', 'roleName': 'S99998.天泽延龙英喆', 'cpExtend': 'http://192.168.5.33:30201', 'continuityLoginDay': '1', 'snKey': 'h0336', 'zoneKey': 'frx_fzml', 'tsKey': 'fangZhouGH', 'envKey': 'H5'}, 'devgame79': {'extension': 'http://192.168.5.33:30201', 'curDayChargeCount': '0', 'rmb': '600', 'gameOrderNo': 'Test8X', 'productName': '60仙玉', 'vipGrade': '4', 'areaName': 'xfzml.s99998', 'roleLevel': '161', 'sn': 'xfzml', 'sumChargeCount': '2', 'timestamp': '1688462664', 'gameId': '107', 'amount': '100', 'productId': '101', 'roleId': '12613819', 'count': '5826', 'productDescribe': '60仙玉', 'version': '2', 'zk': 'frx_fzml', 'regTime': '1682071973', 'areaId': '99998', 'sumCharge': '199', 'roleName': 'S99998.天泽延龙英喆', 'cpExtend': 'http://192.168.5.33:30201', 'continuityLoginDay': '1', 'snKey': 'h0336', 'zoneKey': 'frx_fzml', 'tsKey': 'fangZhouGH', 'envKey': 'H5'}, 'devgame80': {'extension': 'http://192.168.5.33:30201', 'curDayChargeCount': '0', 'rmb': '600', 'gameOrderNo': 'Test8X', 'productName': '60仙玉', 'vipGrade': '4', 'areaName': 'xfzml.s99998', 'roleLevel': '161', 'sn': 'xfzml', 'sumChargeCount': '2', 'timestamp': '1688462664', 'gameId': '107', 'amount': '100', 'productId': '101', 'roleId': '12613819', 'count': '5826', 'productDescribe': '60仙玉', 'version': '2', 'zk': 'frx_fzml', 'regTime': '1682071973', 'areaId': '99998', 'sumCharge': '199', 'roleName': 'S99998.天泽延龙英喆', 'cpExtend': 'http://192.168.5.33:30201', 'continuityLoginDay': '1', 'snKey': 'h0336', 'zoneKey': 'frx_fzml', 'tsKey': 'fangZhouGH', 'envKey': 'H5'}}" ]
+      }, {
+        "name" : "test_16_loginMethodGet[32除妖]",
+        "uid" : "b0dfbbf0aab8f09a",
+        "parentUid" : "1e90f9143c880b1eb2c11a17e450ba71",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733271158,
+          "stop" : 1689733271484,
+          "duration" : 326
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'32'" ]
+      }, {
+        "name" : "test_16_loginMethodGet[33请问]",
+        "uid" : "8ac18ba2bffe1f4a",
+        "parentUid" : "1e90f9143c880b1eb2c11a17e450ba71",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733271486,
+          "stop" : 1689733271818,
+          "duration" : 332
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'33'" ]
+      }, {
+        "name" : "test_16_loginMethodGet[37斗魂]",
+        "uid" : "f5b5affdd80a9e8c",
+        "parentUid" : "1e90f9143c880b1eb2c11a17e450ba71",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733271822,
+          "stop" : 1689733272149,
+          "duration" : 327
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'37'" ]
+      }, {
+        "name" : "test_16_loginMethodGet[79幻刃录]",
+        "uid" : "77ff05a99e5cfcab",
+        "parentUid" : "1e90f9143c880b1eb2c11a17e450ba71",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733272151,
+          "stop" : 1689733272449,
+          "duration" : 298
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'79'" ]
+      }, {
+        "name" : "test_16_loginMethodGet[80斗争]",
+        "uid" : "72e6ea61e3d523fc",
+        "parentUid" : "1e90f9143c880b1eb2c11a17e450ba71",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733272454,
+          "stop" : 1689733272780,
+          "duration" : 326
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'80'" ]
+      }, {
+        "name" : "test_16_loginMethodGet[85三国]",
+        "uid" : "44bde9d905a7dfa3",
+        "parentUid" : "1e90f9143c880b1eb2c11a17e450ba71",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733272782,
+          "stop" : 1689733273090,
+          "duration" : 308
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'85'" ]
+      }, {
+        "name" : "test_16_loginMethodGet[96直播包]",
+        "uid" : "db3e0a8a6a75cf08",
+        "parentUid" : "1e90f9143c880b1eb2c11a17e450ba71",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733273092,
+          "stop" : 1689733273389,
+          "duration" : 297
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'96'" ]
+      } ],
+      "uid" : "1e90f9143c880b1eb2c11a17e450ba71"
+    } ],
+    "uid" : "fca94cb95ca800708bc26bdd6e2a0306"
+  }, {
+    "name" : "test_LoginID79qw",
+    "children" : [ {
+      "name" : "TestHuanRengLu",
+      "children" : [ {
+        "name" : "test_01_login[data0]",
+        "uid" : "de0f7798d2ddfd34",
+        "parentUid" : "3200f9f56f844b2c95a5ac8f44cab799",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733273392,
+          "stop" : 1689733273753,
+          "duration" : 361
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/sdkLogin/playerAccount', 'password': '123456', 'user': '18598019760', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJnYW1lSWQiOjczLCJhY2NvdW50SWQiOiIxMWVkNjZmNGZlM2VkZjIxNTI1NDAwOWMyZjA5Yjc3MCIsImV4cGlyZVRpbWUiOjE2NjkzNTAxMzcsImdyYW50VHlwZSI6ImF1dGhvcml6YXRpb24ifQ.QpJX0_WxHUrq2iG47Zs134jrvJnucFjXICOKAr2UoFfbNSSViWShdG2mRDIks9SJxGgmK3zmKsWva1jAmEWVtg', 'except_value': '0', 'game32dev': {'user': '18598019760', 'password': '123456'}, 'game37dev': {'user': '18598019760', 'password': '123456'}, 'game79dev': {'user': '18598019760', 'password': '123456'}, 'game80dev': {'user': '18598019760', 'password': '123456'}}]" ]
+      }, {
+        "name" : "test_02_loginfail[data10]",
+        "uid" : "9ffb37ed202b6261",
+        "parentUid" : "3200f9f56f844b2c95a5ac8f44cab799",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733273755,
+          "stop" : 1689733274387,
+          "duration" : 632
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/sdkLogin/playerAccount', 'password': '123456', 'user': '18598019760zw', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJnYW1lSWQiOjczLCJhY2NvdW50SWQiOiIxMWVkNjZmNGZlM2VkZjIxNTI1NDAwOWMyZjA5Yjc3MCIsImV4cGlyZVRpbWUiOjE2NjkzNTAxMzcsImdyYW50VHlwZSI6ImF1dGhvcml6YXRpb24ifQ.QpJX0_WxHUrq2iG47Zs134jrvJnucFjXICOKAr2UoFfbNSSViWShdG2mRDIks9SJxGgmK3zmKsWva1jAmEWVtg'}, {'api': '/sdkLogin/playerAccount', 'password': '123456zw', 'user': '18598019760', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJnYW1lSWQiOjczLCJhY2NvdW50SWQiOiIxMWVkNjZmNGZlM2VkZjIxNTI1NDAwOWMyZjA5Yjc3MCIsImV4cGlyZVRpbWUiOjE2NjkzNTAxMzcsImdyYW50VHlwZSI6ImF1dGhvcml6YXRpb24ifQ.QpJX0_WxHUrq2iG47Zs134jrvJnucFjXICOKAr2UoFfbNSSViWShdG2mRDIks9SJxGgmK3zmKsWva1jAmEWVtg'}]" ]
+      }, {
+        "name" : "test_03_tourist_register",
+        "uid" : "e3e5dccdfa6ff87e",
+        "parentUid" : "3200f9f56f844b2c95a5ac8f44cab799",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733274691,
+          "stop" : 1689733274691,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_04_tourist_login[data0]",
+        "uid" : "d7e90c155c5278c5",
+        "parentUid" : "3200f9f56f844b2c95a5ac8f44cab799",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733274693,
+          "stop" : 1689733275043,
+          "duration" : 350
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/sdkLogin/playerAccount', 'gameId': '73'}, {'gamId': '666666'}]" ]
+      }, {
+        "name" : "test_05_tourist_realuser[realdata0]",
+        "uid" : "21b2357b4fe97abd",
+        "parentUid" : "3200f9f56f844b2c95a5ac8f44cab799",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733275428,
+          "stop" : 1689733275908,
+          "duration" : 480
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/realName/certification', 'idCard': '340302201108031051', 'realName': '陈浩'}, {'gamId': '666666'}]" ]
+      }, {
+        "name" : "test_06_tourist_setpwd[pwddata0]",
+        "uid" : "f8dae9df6cedbe21",
+        "parentUid" : "3200f9f56f844b2c95a5ac8f44cab799",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733276299,
+          "stop" : 1689733276608,
+          "duration" : 309
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/account/updatePasswordByToken', 'logapi': '/sdkLogin/playerAccount', 'newPassword': 'abcdefg', 'erroPassword': 'wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwWWWWW'}]" ]
+      }, {
+        "name" : "test_07_newpwdLogin_tourist[newpwds0]",
+        "uid" : "c3b97aa9dbec706f",
+        "parentUid" : "3200f9f56f844b2c95a5ac8f44cab799",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733276612,
+          "stop" : 1689733276964,
+          "duration" : 352
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/account/updatePasswordByToken', 'logapi': '/sdkLogin/playerAccount', 'newPassword': 'abcdefg', 'erroPassword': 'wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwWWWWW'}]" ]
+      }, {
+        "name" : "test_08_oldpwdLoginFail_tourist[data0]",
+        "uid" : "5672ba68569f4122",
+        "parentUid" : "3200f9f56f844b2c95a5ac8f44cab799",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733276966,
+          "stop" : 1689733277322,
+          "duration" : 356
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/sdkLogin/playerAccount', 'gameId': '73'}, {'gamId': '666666'}]" ]
+      }, {
+        "name" : "test_09_sendreason_success[senddata0]",
+        "uid" : "2d3a830e43297461",
+        "parentUid" : "3200f9f56f844b2c95a5ac8f44cab799",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733277691,
+          "stop" : 1689733278042,
+          "duration" : 351
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/info/feedback', 'content1': {'content': 'one,用户反馈了一条意见'}, 'content2': {'content': 'two,用户反馈了一条意见'}}]" ]
+      }, {
+        "name" : "test_09_sendtworeason_success[senddata0]",
+        "uid" : "d769e50cdd83016d",
+        "parentUid" : "3200f9f56f844b2c95a5ac8f44cab799",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733278415,
+          "stop" : 1689733279339,
+          "duration" : 924
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/info/feedback', 'content1': {'content': 'one,用户反馈了一条意见'}, 'content2': {'content': 'two,用户反馈了一条意见'}}]" ]
+      }, {
+        "name" : "test_10_payChek_success[paydata0]",
+        "uid" : "cd5d42d52b525e5d",
+        "parentUid" : "3200f9f56f844b2c95a5ac8f44cab799",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733279663,
+          "stop" : 1689733279974,
+          "duration" : 311
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/indulge/payCheck', 'age': '18', 'big_age': '16', 'midl_age': '11', 'small_age': '6', 'amount': '19800', 'except_bigstr': '游戏中16周岁以上未满18周岁的用户', 'except_midlstr': '游戏中8周岁以上未满16周岁的用户', 'except_smallstr': '本游戏不为未满8周岁的用户', 'indulge': 1}]" ]
+      }, {
+        "name" : "test_11_payCheck_big_age",
+        "uid" : "d2e83f0e442b24bc",
+        "parentUid" : "3200f9f56f844b2c95a5ac8f44cab799",
+        "status" : "failed",
+        "time" : {
+          "start" : 1689733280314,
+          "stop" : 1689733280692,
+          "duration" : 378
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_12_payCheck_midl_age",
+        "uid" : "1997b6a6a5b1b17c",
+        "parentUid" : "3200f9f56f844b2c95a5ac8f44cab799",
+        "status" : "failed",
+        "time" : {
+          "start" : 1689733281055,
+          "stop" : 1689733281390,
+          "duration" : 335
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_13_payCheck_small_age",
+        "uid" : "d98f109d03066423",
+        "parentUid" : "3200f9f56f844b2c95a5ac8f44cab799",
+        "status" : "failed",
+        "time" : {
+          "start" : 1689733281712,
+          "stop" : 1689733282029,
+          "duration" : 317
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_14_creat_order[order_data0]",
+        "uid" : "84aae5372f0e2e7b",
+        "parentUid" : "3200f9f56f844b2c95a5ac8f44cab799",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733283395,
+          "stop" : 1689733283763,
+          "duration" : 368
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'api': '/pay/create', 'devgame32': {'extension': 'http://192.168.5.33:30201', 'curDayChargeCount': '0', 'rmb': '600', 'gameOrderNo': 'Test8X', 'productName': '60仙玉', 'vipGrade': '4', 'areaName': 'xfzml.s99998', 'roleLevel': '161', 'sn': 'xfzml', 'sumChargeCount': '2', 'timestamp': '1688462664', 'gameId': '107', 'amount': '100', 'productId': '101', 'roleId': '12613819', 'count': '5826', 'productDescribe': '60仙玉', 'version': '2', 'zk': 'frx_fzml', 'regTime': '1682071973', 'areaId': '99998', 'sumCharge': '199', 'roleName': 'S99998.天泽延龙英喆', 'cpExtend': 'http://192.168.5.33:30201', 'continuityLoginDay': '1', 'snKey': 'h0200', 'zoneKey': 'frx_fzml', 'tsKey': 'fangZhouGH', 'envKey': 'H5'}, 'devgame37': {'extension': 'http://192.168.5.33:30201', 'curDayChargeCount': '0', 'rmb': '600', 'gameOrderNo': 'Test8X', 'productName': '60仙玉', 'vipGrade': '4', 'areaName': 'xfzml.s99998', 'roleLevel': '161', 'sn': 'xfzml', 'sumChargeCount': '2', 'timestamp': '1688462664', 'gameId': '107', 'amount': '100', 'productId': '101', 'roleId': '12613819', 'count': '5826', 'productDescribe': '60仙玉', 'version': '2', 'zk': 'frx_fzml', 'regTime': '1682071973', 'areaId': '99998', 'sumCharge': '199', 'roleName': 'S99998.天泽延龙英喆', 'cpExtend': 'http://192.168.5.33:30201', 'continuityLoginDay': '1', 'snKey': 'h0336', 'zoneKey': 'frx_fzml', 'tsKey': 'fangZhouGH', 'envKey': 'H5'}, 'devgame79': {'extension': 'http://192.168.5.33:30201', 'curDayChargeCount': '0', 'rmb': '600', 'gameOrderNo': 'Test8X', 'productName': '60仙玉', 'vipGrade': '4', 'areaName': 'xfzml.s99998', 'roleLevel': '161', 'sn': 'xfzml', 'sumChargeCount': '2', 'timestamp': '1688462664', 'gameId': '107', 'amount': '100', 'productId': '101', 'roleId': '12613819', 'count': '5826', 'productDescribe': '60仙玉', 'version': '2', 'zk': 'frx_fzml', 'regTime': '1682071973', 'areaId': '99998', 'sumCharge': '199', 'roleName': 'S99998.天泽延龙英喆', 'cpExtend': 'http://192.168.5.33:30201', 'continuityLoginDay': '1', 'snKey': 'h0336', 'zoneKey': 'frx_fzml', 'tsKey': 'fangZhouGH', 'envKey': 'H5'}, 'devgame80': {'extension': 'http://192.168.5.33:30201', 'curDayChargeCount': '0', 'rmb': '600', 'gameOrderNo': 'Test8X', 'productName': '60仙玉', 'vipGrade': '4', 'areaName': 'xfzml.s99998', 'roleLevel': '161', 'sn': 'xfzml', 'sumChargeCount': '2', 'timestamp': '1688462664', 'gameId': '107', 'amount': '100', 'productId': '101', 'roleId': '12613819', 'count': '5826', 'productDescribe': '60仙玉', 'version': '2', 'zk': 'frx_fzml', 'regTime': '1682071973', 'areaId': '99998', 'sumCharge': '199', 'roleName': 'S99998.天泽延龙英喆', 'cpExtend': 'http://192.168.5.33:30201', 'continuityLoginDay': '1', 'snKey': 'h0336', 'zoneKey': 'frx_fzml', 'tsKey': 'fangZhouGH', 'envKey': 'H5'}}" ]
+      }, {
+        "name" : "test_16_loginMethodGet[32除妖]",
+        "uid" : "f45c0111e7e955c4",
+        "parentUid" : "3200f9f56f844b2c95a5ac8f44cab799",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733283768,
+          "stop" : 1689733284107,
+          "duration" : 339
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'32'" ]
+      }, {
+        "name" : "test_16_loginMethodGet[33请问]",
+        "uid" : "edd65d7f69eddfbe",
+        "parentUid" : "3200f9f56f844b2c95a5ac8f44cab799",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733284109,
+          "stop" : 1689733284445,
+          "duration" : 336
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'33'" ]
+      }, {
+        "name" : "test_16_loginMethodGet[37斗魂]",
+        "uid" : "5c1b9bb39aeeb473",
+        "parentUid" : "3200f9f56f844b2c95a5ac8f44cab799",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733284447,
+          "stop" : 1689733284840,
+          "duration" : 393
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'37'" ]
+      }, {
+        "name" : "test_16_loginMethodGet[79幻刃录]",
+        "uid" : "738779926c332fa5",
+        "parentUid" : "3200f9f56f844b2c95a5ac8f44cab799",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733284842,
+          "stop" : 1689733285144,
+          "duration" : 302
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'79'" ]
+      }, {
+        "name" : "test_16_loginMethodGet[80斗争]",
+        "uid" : "b96dba5f051b779",
+        "parentUid" : "3200f9f56f844b2c95a5ac8f44cab799",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733285147,
+          "stop" : 1689733285478,
+          "duration" : 331
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'80'" ]
+      }, {
+        "name" : "test_16_loginMethodGet[85三国]",
+        "uid" : "3238e592cf9b956f",
+        "parentUid" : "3200f9f56f844b2c95a5ac8f44cab799",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733285480,
+          "stop" : 1689733285800,
+          "duration" : 320
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'85'" ]
+      }, {
+        "name" : "test_16_loginMethodGet[96直播包]",
+        "uid" : "e6443ccdb9626cd5",
+        "parentUid" : "3200f9f56f844b2c95a5ac8f44cab799",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733285803,
+          "stop" : 1689733286105,
+          "duration" : 302
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'96'" ]
+      } ],
+      "uid" : "3200f9f56f844b2c95a5ac8f44cab799"
+    } ],
+    "uid" : "770159e82a017c62bc54c443480c8f37"
+  }, {
+    "name" : "test_LoginApi",
+    "children" : [ {
+      "name" : "TestLogin",
+      "children" : [ {
+        "name" : "test_01_login[data0]",
+        "uid" : "caa09f9aca3cf103",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733286107,
+          "stop" : 1689733286457,
+          "duration" : 350
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/sdkLogin/playerAccount', 'password': '123456', 'user': '18598019760', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJnYW1lSWQiOjczLCJhY2NvdW50SWQiOiIxMWVkNjZmNGZlM2VkZjIxNTI1NDAwOWMyZjA5Yjc3MCIsImV4cGlyZVRpbWUiOjE2NjkzNTAxMzcsImdyYW50VHlwZSI6ImF1dGhvcml6YXRpb24ifQ.QpJX0_WxHUrq2iG47Zs134jrvJnucFjXICOKAr2UoFfbNSSViWShdG2mRDIks9SJxGgmK3zmKsWva1jAmEWVtg', 'except_value': '0', 'game32dev': {'user': '18598019760', 'password': '123456'}, 'game37dev': {'user': '18598019760', 'password': '123456'}, 'game79dev': {'user': '18598019760', 'password': '123456'}, 'game80dev': {'user': '18598019760', 'password': '123456'}}]" ]
+      }, {
+        "name" : "test_02_loginfail[data10]",
+        "uid" : "e0336604e093acb0",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733286459,
+          "stop" : 1689733287148,
+          "duration" : 689
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/sdkLogin/playerAccount', 'password': '123456', 'user': '18598019760zw', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJnYW1lSWQiOjczLCJhY2NvdW50SWQiOiIxMWVkNjZmNGZlM2VkZjIxNTI1NDAwOWMyZjA5Yjc3MCIsImV4cGlyZVRpbWUiOjE2NjkzNTAxMzcsImdyYW50VHlwZSI6ImF1dGhvcml6YXRpb24ifQ.QpJX0_WxHUrq2iG47Zs134jrvJnucFjXICOKAr2UoFfbNSSViWShdG2mRDIks9SJxGgmK3zmKsWva1jAmEWVtg'}, {'api': '/sdkLogin/playerAccount', 'password': '123456zw', 'user': '18598019760', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJnYW1lSWQiOjczLCJhY2NvdW50SWQiOiIxMWVkNjZmNGZlM2VkZjIxNTI1NDAwOWMyZjA5Yjc3MCIsImV4cGlyZVRpbWUiOjE2NjkzNTAxMzcsImdyYW50VHlwZSI6ImF1dGhvcml6YXRpb24ifQ.QpJX0_WxHUrq2iG47Zs134jrvJnucFjXICOKAr2UoFfbNSSViWShdG2mRDIks9SJxGgmK3zmKsWva1jAmEWVtg'}]" ]
+      }, {
+        "name" : "test_03_tourist_register",
+        "uid" : "35380a8295ff05fb",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733287518,
+          "stop" : 1689733287518,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_04_tourist_login[data0]",
+        "uid" : "d69dc4ef6781b0ea",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733287520,
+          "stop" : 1689733287894,
+          "duration" : 374
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/sdkLogin/playerAccount', 'gameId': '73'}, {'gamId': '666666'}]" ]
+      }, {
+        "name" : "test_05_tourist_realuser[realdata0]",
+        "uid" : "1ba48437162a50cc",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "broken",
+        "time" : {
+          "start" : 1689733288225,
+          "stop" : 1689733288576,
+          "duration" : 351
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/realName/certification', 'idCard': '340302201108031051', 'realName': '陈浩'}, {'gamId': '666666'}]" ]
+      }, {
+        "name" : "test_06_tourist_setpwd[pwddata0]",
+        "uid" : "8b3975a8ea8fe5a8",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733288979,
+          "stop" : 1689733289347,
+          "duration" : 368
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/account/updatePasswordByToken', 'logapi': '/sdkLogin/playerAccount', 'newPassword': 'abcdefg', 'erroPassword': 'wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwWWWWW'}]" ]
+      }, {
+        "name" : "test_07_newpwdLogin_tourist[newpwds0]",
+        "uid" : "1f692476ac2084a3",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733289350,
+          "stop" : 1689733289749,
+          "duration" : 399
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/account/updatePasswordByToken', 'logapi': '/sdkLogin/playerAccount', 'newPassword': 'abcdefg', 'erroPassword': 'wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwWWWWW'}]" ]
+      }, {
+        "name" : "test_08_oldpwdLoginFail_tourist",
+        "uid" : "9ad7fc53f6bd85fe",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733289751,
+          "stop" : 1689733290058,
+          "duration" : 307
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_09_sendreason_success",
+        "uid" : "17c480a5ea146a9e",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733290393,
+          "stop" : 1689733290695,
+          "duration" : 302
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_50_get_userInfo",
+        "uid" : "16aa6dbfb951fa8e",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "broken",
+        "time" : {
+          "start" : 1689733290697,
+          "stop" : 1689733290697,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_10_payChek_success[paydata0]",
+        "uid" : "b7b12566b6a7811d",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733292091,
+          "stop" : 1689733292666,
+          "duration" : 575
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/indulge/payCheck', 'age': '18', 'big_age': '16', 'midl_age': '11', 'small_age': '6', 'amount': '19800', 'except_bigstr': '游戏中16周岁以上未满18周岁的用户', 'except_midlstr': '游戏中8周岁以上未满16周岁的用户', 'except_smallstr': '本游戏不为未满8周岁的用户', 'indulge': 1}]" ]
+      }, {
+        "name" : "test_11_payCheck_big_age",
+        "uid" : "7cb9b5b3bd3a35cd",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733293010,
+          "stop" : 1689733293355,
+          "duration" : 345
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_12_payCheck_midl_age",
+        "uid" : "cf1c0eae542c0a69",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733293753,
+          "stop" : 1689733294077,
+          "duration" : 324
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_13_payCheck_small_age",
+        "uid" : "97e9ae8d28261b9b",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733294488,
+          "stop" : 1689733294849,
+          "duration" : 361
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_14_create",
+        "uid" : "3d9285d93376a604",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "broken",
+        "time" : {
+          "start" : 1689733294851,
+          "stop" : 1689733294851,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_05_tourist_loginfail",
+        "uid" : "23a155ec1940daee",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "failed",
+        "time" : {
+          "start" : 1689733295950,
+          "stop" : 1689733295950,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_04_usedata[1排第一]",
+        "uid" : "34dac5a9234a81e3",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "failed",
+        "time" : {
+          "start" : 1689733295959,
+          "stop" : 1689733295959,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1" ]
+      }, {
+        "name" : "test_04_usedata[2排第二]",
+        "uid" : "21ff3cded6bd83be",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "failed",
+        "time" : {
+          "start" : 1689733295969,
+          "stop" : 1689733295969,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2" ]
+      }, {
+        "name" : "test_04_usedata[3排第三]",
+        "uid" : "699eeb13b2befd2d",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "failed",
+        "time" : {
+          "start" : 1689733295979,
+          "stop" : 1689733295979,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3" ]
+      }, {
+        "name" : "test_05_jump",
+        "uid" : "404825bb396933b",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733295988,
+          "stop" : 1689733295988,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_15_creatorder",
+        "uid" : "808cf98d06703fd5",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "failed",
+        "time" : {
+          "start" : 1689733296363,
+          "stop" : 1689733296363,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_16_loginMethodGet[32除妖]",
+        "uid" : "4a8cc42f01e5712c",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733296373,
+          "stop" : 1689733296690,
+          "duration" : 317
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'32'" ]
+      }, {
+        "name" : "test_16_loginMethodGet[33请问]",
+        "uid" : "71aa5d22599dcdbd",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733296693,
+          "stop" : 1689733297012,
+          "duration" : 319
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'33'" ]
+      }, {
+        "name" : "test_16_loginMethodGet[37斗魂]",
+        "uid" : "9dc8a86e7c19c278",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733297015,
+          "stop" : 1689733297342,
+          "duration" : 327
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'37'" ]
+      }, {
+        "name" : "test_16_loginMethodGet[79幻刃录]",
+        "uid" : "61e77842efe339b7",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733297344,
+          "stop" : 1689733297642,
+          "duration" : 298
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'79'" ]
+      }, {
+        "name" : "test_16_loginMethodGet[80斗争]",
+        "uid" : "d5c0bf519c6ce559",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733297644,
+          "stop" : 1689733297975,
+          "duration" : 331
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'80'" ]
+      }, {
+        "name" : "test_16_loginMethodGet[85三国]",
+        "uid" : "d9aed30abf50c7bc",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733297989,
+          "stop" : 1689733298376,
+          "duration" : 387
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'85'" ]
+      }, {
+        "name" : "test_16_loginMethodGet[96直播包]",
+        "uid" : "202a1759dfc2b587",
+        "parentUid" : "3c060fac7dd7942a58ba82a72e657800",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733298380,
+          "stop" : 1689733298699,
+          "duration" : 319
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'96'" ]
+      } ],
+      "uid" : "3c060fac7dd7942a58ba82a72e657800"
+    } ],
+    "uid" : "ac16977956fd9bc5a02ddb0a87704afd"
+  }, {
+    "name" : "test_LoginID32qw",
+    "children" : [ {
+      "name" : "TestQingWeng",
+      "children" : [ {
+        "name" : "test_01_login[data0]",
+        "uid" : "5b980483239dfaa8",
+        "parentUid" : "47ff84391def81b622960dc20ab958e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733298702,
+          "stop" : 1689733299058,
+          "duration" : 356
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/sdkLogin/playerAccount', 'password': '123456', 'user': '18598019760', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJnYW1lSWQiOjczLCJhY2NvdW50SWQiOiIxMWVkNjZmNGZlM2VkZjIxNTI1NDAwOWMyZjA5Yjc3MCIsImV4cGlyZVRpbWUiOjE2NjkzNTAxMzcsImdyYW50VHlwZSI6ImF1dGhvcml6YXRpb24ifQ.QpJX0_WxHUrq2iG47Zs134jrvJnucFjXICOKAr2UoFfbNSSViWShdG2mRDIks9SJxGgmK3zmKsWva1jAmEWVtg', 'except_value': '0', 'game32dev': {'user': '18598019760', 'password': '123456'}, 'game37dev': {'user': '18598019760', 'password': '123456'}, 'game79dev': {'user': '18598019760', 'password': '123456'}, 'game80dev': {'user': '18598019760', 'password': '123456'}}]" ]
+      }, {
+        "name" : "test_02_loginfail[data10]",
+        "uid" : "f81791636717297a",
+        "parentUid" : "47ff84391def81b622960dc20ab958e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733299060,
+          "stop" : 1689733299764,
+          "duration" : 704
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/sdkLogin/playerAccount', 'password': '123456', 'user': '18598019760zw', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJnYW1lSWQiOjczLCJhY2NvdW50SWQiOiIxMWVkNjZmNGZlM2VkZjIxNTI1NDAwOWMyZjA5Yjc3MCIsImV4cGlyZVRpbWUiOjE2NjkzNTAxMzcsImdyYW50VHlwZSI6ImF1dGhvcml6YXRpb24ifQ.QpJX0_WxHUrq2iG47Zs134jrvJnucFjXICOKAr2UoFfbNSSViWShdG2mRDIks9SJxGgmK3zmKsWva1jAmEWVtg'}, {'api': '/sdkLogin/playerAccount', 'password': '123456zw', 'user': '18598019760', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJnYW1lSWQiOjczLCJhY2NvdW50SWQiOiIxMWVkNjZmNGZlM2VkZjIxNTI1NDAwOWMyZjA5Yjc3MCIsImV4cGlyZVRpbWUiOjE2NjkzNTAxMzcsImdyYW50VHlwZSI6ImF1dGhvcml6YXRpb24ifQ.QpJX0_WxHUrq2iG47Zs134jrvJnucFjXICOKAr2UoFfbNSSViWShdG2mRDIks9SJxGgmK3zmKsWva1jAmEWVtg'}]" ]
+      }, {
+        "name" : "test_03_tourist_register",
+        "uid" : "61e640c842d103dc",
+        "parentUid" : "47ff84391def81b622960dc20ab958e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733300304,
+          "stop" : 1689733300304,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_04_tourist_login[data0]",
+        "uid" : "c2f6f29614eff84a",
+        "parentUid" : "47ff84391def81b622960dc20ab958e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733300306,
+          "stop" : 1689733300693,
+          "duration" : 387
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/sdkLogin/playerAccount', 'gameId': '73'}, {'gamId': '666666'}]" ]
+      }, {
+        "name" : "test_05_tourist_realuser[realdata0]",
+        "uid" : "d6b7bd20b496884e",
+        "parentUid" : "47ff84391def81b622960dc20ab958e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733301039,
+          "stop" : 1689733301547,
+          "duration" : 508
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/realName/certification', 'idCard': '340302201108031051', 'realName': '陈浩'}, {'gamId': '666666'}]" ]
+      }, {
+        "name" : "test_06_tourist_setpwd[pwddata0]",
+        "uid" : "e7c331318ce6fed5",
+        "parentUid" : "47ff84391def81b622960dc20ab958e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733301898,
+          "stop" : 1689733302263,
+          "duration" : 365
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/account/updatePasswordByToken', 'logapi': '/sdkLogin/playerAccount', 'newPassword': 'abcdefg', 'erroPassword': 'wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwWWWWW'}]" ]
+      }, {
+        "name" : "test_07_newpwdLogin_tourist[newpwds0]",
+        "uid" : "fedc1bd9f18bfce7",
+        "parentUid" : "47ff84391def81b622960dc20ab958e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733302267,
+          "stop" : 1689733302621,
+          "duration" : 354
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/account/updatePasswordByToken', 'logapi': '/sdkLogin/playerAccount', 'newPassword': 'abcdefg', 'erroPassword': 'wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwWWWWW'}]" ]
+      }, {
+        "name" : "test_08_oldpwdLoginFail_tourist[data0]",
+        "uid" : "abe00768d90d7710",
+        "parentUid" : "47ff84391def81b622960dc20ab958e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733302624,
+          "stop" : 1689733302971,
+          "duration" : 347
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/sdkLogin/playerAccount', 'gameId': '73'}, {'gamId': '666666'}]" ]
+      }, {
+        "name" : "test_09_sendreason_success[senddata0]",
+        "uid" : "3ba6100957cd9c2f",
+        "parentUid" : "47ff84391def81b622960dc20ab958e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733303643,
+          "stop" : 1689733304004,
+          "duration" : 361
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/info/feedback', 'content1': {'content': 'one,用户反馈了一条意见'}, 'content2': {'content': 'two,用户反馈了一条意见'}}]" ]
+      }, {
+        "name" : "test_09_sendtworeason_success[senddata0]",
+        "uid" : "83ec21d2fc9b1aeb",
+        "parentUid" : "47ff84391def81b622960dc20ab958e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733304642,
+          "stop" : 1689733305336,
+          "duration" : 694
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/info/feedback', 'content1': {'content': 'one,用户反馈了一条意见'}, 'content2': {'content': 'two,用户反馈了一条意见'}}]" ]
+      }, {
+        "name" : "test_10_payChek_success[paydata0]",
+        "uid" : "b9c8bc12ac9d8593",
+        "parentUid" : "47ff84391def81b622960dc20ab958e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733305700,
+          "stop" : 1689733306052,
+          "duration" : 352
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/indulge/payCheck', 'age': '18', 'big_age': '16', 'midl_age': '11', 'small_age': '6', 'amount': '19800', 'except_bigstr': '游戏中16周岁以上未满18周岁的用户', 'except_midlstr': '游戏中8周岁以上未满16周岁的用户', 'except_smallstr': '本游戏不为未满8周岁的用户', 'indulge': 1}]" ]
+      }, {
+        "name" : "test_11_payCheck_big_age",
+        "uid" : "6c031e3c86178faa",
+        "parentUid" : "47ff84391def81b622960dc20ab958e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733306413,
+          "stop" : 1689733306745,
+          "duration" : 332
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_12_payCheck_midl_age",
+        "uid" : "2a38798f5c0cc8fc",
+        "parentUid" : "47ff84391def81b622960dc20ab958e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733307087,
+          "stop" : 1689733307442,
+          "duration" : 355
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_13_payCheck_small_age",
+        "uid" : "2c185af4b8b7acf5",
+        "parentUid" : "47ff84391def81b622960dc20ab958e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733307819,
+          "stop" : 1689733308273,
+          "duration" : 454
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_14_creat_order[order_data0]",
+        "uid" : "e4ab0a371f549fe0",
+        "parentUid" : "47ff84391def81b622960dc20ab958e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733309732,
+          "stop" : 1689733310079,
+          "duration" : 347
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'api': '/pay/create', 'devgame32': {'extension': 'http://192.168.5.33:30201', 'curDayChargeCount': '0', 'rmb': '600', 'gameOrderNo': 'Test8X', 'productName': '60仙玉', 'vipGrade': '4', 'areaName': 'xfzml.s99998', 'roleLevel': '161', 'sn': 'xfzml', 'sumChargeCount': '2', 'timestamp': '1688462664', 'gameId': '107', 'amount': '100', 'productId': '101', 'roleId': '12613819', 'count': '5826', 'productDescribe': '60仙玉', 'version': '2', 'zk': 'frx_fzml', 'regTime': '1682071973', 'areaId': '99998', 'sumCharge': '199', 'roleName': 'S99998.天泽延龙英喆', 'cpExtend': 'http://192.168.5.33:30201', 'continuityLoginDay': '1', 'snKey': 'h0200', 'zoneKey': 'frx_fzml', 'tsKey': 'fangZhouGH', 'envKey': 'H5'}, 'devgame37': {'extension': 'http://192.168.5.33:30201', 'curDayChargeCount': '0', 'rmb': '600', 'gameOrderNo': 'Test8X', 'productName': '60仙玉', 'vipGrade': '4', 'areaName': 'xfzml.s99998', 'roleLevel': '161', 'sn': 'xfzml', 'sumChargeCount': '2', 'timestamp': '1688462664', 'gameId': '107', 'amount': '100', 'productId': '101', 'roleId': '12613819', 'count': '5826', 'productDescribe': '60仙玉', 'version': '2', 'zk': 'frx_fzml', 'regTime': '1682071973', 'areaId': '99998', 'sumCharge': '199', 'roleName': 'S99998.天泽延龙英喆', 'cpExtend': 'http://192.168.5.33:30201', 'continuityLoginDay': '1', 'snKey': 'h0336', 'zoneKey': 'frx_fzml', 'tsKey': 'fangZhouGH', 'envKey': 'H5'}, 'devgame79': {'extension': 'http://192.168.5.33:30201', 'curDayChargeCount': '0', 'rmb': '600', 'gameOrderNo': 'Test8X', 'productName': '60仙玉', 'vipGrade': '4', 'areaName': 'xfzml.s99998', 'roleLevel': '161', 'sn': 'xfzml', 'sumChargeCount': '2', 'timestamp': '1688462664', 'gameId': '107', 'amount': '100', 'productId': '101', 'roleId': '12613819', 'count': '5826', 'productDescribe': '60仙玉', 'version': '2', 'zk': 'frx_fzml', 'regTime': '1682071973', 'areaId': '99998', 'sumCharge': '199', 'roleName': 'S99998.天泽延龙英喆', 'cpExtend': 'http://192.168.5.33:30201', 'continuityLoginDay': '1', 'snKey': 'h0336', 'zoneKey': 'frx_fzml', 'tsKey': 'fangZhouGH', 'envKey': 'H5'}, 'devgame80': {'extension': 'http://192.168.5.33:30201', 'curDayChargeCount': '0', 'rmb': '600', 'gameOrderNo': 'Test8X', 'productName': '60仙玉', 'vipGrade': '4', 'areaName': 'xfzml.s99998', 'roleLevel': '161', 'sn': 'xfzml', 'sumChargeCount': '2', 'timestamp': '1688462664', 'gameId': '107', 'amount': '100', 'productId': '101', 'roleId': '12613819', 'count': '5826', 'productDescribe': '60仙玉', 'version': '2', 'zk': 'frx_fzml', 'regTime': '1682071973', 'areaId': '99998', 'sumCharge': '199', 'roleName': 'S99998.天泽延龙英喆', 'cpExtend': 'http://192.168.5.33:30201', 'continuityLoginDay': '1', 'snKey': 'h0336', 'zoneKey': 'frx_fzml', 'tsKey': 'fangZhouGH', 'envKey': 'H5'}}" ]
+      }, {
+        "name" : "test_16_loginMethodGet[32除妖]",
+        "uid" : "b037579d27e4b043",
+        "parentUid" : "47ff84391def81b622960dc20ab958e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733310093,
+          "stop" : 1689733310432,
+          "duration" : 339
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'32'" ]
+      }, {
+        "name" : "test_16_loginMethodGet[33请问]",
+        "uid" : "693be896003b8143",
+        "parentUid" : "47ff84391def81b622960dc20ab958e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733310435,
+          "stop" : 1689733310753,
+          "duration" : 318
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'33'" ]
+      }, {
+        "name" : "test_16_loginMethodGet[37斗魂]",
+        "uid" : "8e062a8d08c515a5",
+        "parentUid" : "47ff84391def81b622960dc20ab958e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733310755,
+          "stop" : 1689733311094,
+          "duration" : 339
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'37'" ]
+      }, {
+        "name" : "test_16_loginMethodGet[79幻刃录]",
+        "uid" : "34cf0c7d461ba27",
+        "parentUid" : "47ff84391def81b622960dc20ab958e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733311096,
+          "stop" : 1689733311391,
+          "duration" : 295
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'79'" ]
+      }, {
+        "name" : "test_16_loginMethodGet[80斗争]",
+        "uid" : "142390d56f380a2d",
+        "parentUid" : "47ff84391def81b622960dc20ab958e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733311394,
+          "stop" : 1689733311891,
+          "duration" : 497
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'80'" ]
+      }, {
+        "name" : "test_16_loginMethodGet[85三国]",
+        "uid" : "b4472c7cc8505402",
+        "parentUid" : "47ff84391def81b622960dc20ab958e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733311893,
+          "stop" : 1689733312202,
+          "duration" : 309
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'85'" ]
+      }, {
+        "name" : "test_16_loginMethodGet[96直播包]",
+        "uid" : "e75e02a67c0c2538",
+        "parentUid" : "47ff84391def81b622960dc20ab958e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733312205,
+          "stop" : 1689733312528,
+          "duration" : 323
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'96'" ]
+      } ],
+      "uid" : "47ff84391def81b622960dc20ab958e0"
+    } ],
+    "uid" : "eaf14dec0fc445a8bf40c78ae83d09ec"
+  }, {
+    "name" : "test_LoginID37qw",
+    "children" : [ {
+      "name" : "TestDouHun",
+      "children" : [ {
+        "name" : "test_01_login[data0]",
+        "uid" : "2a44aa7329cb08a7",
+        "parentUid" : "2369bf74d86bcfc0d4b3197e39f28d03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733312531,
+          "stop" : 1689733312894,
+          "duration" : 363
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/sdkLogin/playerAccount', 'password': '123456', 'user': '18598019760', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJnYW1lSWQiOjczLCJhY2NvdW50SWQiOiIxMWVkNjZmNGZlM2VkZjIxNTI1NDAwOWMyZjA5Yjc3MCIsImV4cGlyZVRpbWUiOjE2NjkzNTAxMzcsImdyYW50VHlwZSI6ImF1dGhvcml6YXRpb24ifQ.QpJX0_WxHUrq2iG47Zs134jrvJnucFjXICOKAr2UoFfbNSSViWShdG2mRDIks9SJxGgmK3zmKsWva1jAmEWVtg', 'except_value': '0', 'game32dev': {'user': '18598019760', 'password': '123456'}, 'game37dev': {'user': '18598019760', 'password': '123456'}, 'game79dev': {'user': '18598019760', 'password': '123456'}, 'game80dev': {'user': '18598019760', 'password': '123456'}}]" ]
+      }, {
+        "name" : "test_02_loginfail[data10]",
+        "uid" : "a084d83714ada4da",
+        "parentUid" : "2369bf74d86bcfc0d4b3197e39f28d03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733312896,
+          "stop" : 1689733313652,
+          "duration" : 756
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/sdkLogin/playerAccount', 'password': '123456', 'user': '18598019760zw', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJnYW1lSWQiOjczLCJhY2NvdW50SWQiOiIxMWVkNjZmNGZlM2VkZjIxNTI1NDAwOWMyZjA5Yjc3MCIsImV4cGlyZVRpbWUiOjE2NjkzNTAxMzcsImdyYW50VHlwZSI6ImF1dGhvcml6YXRpb24ifQ.QpJX0_WxHUrq2iG47Zs134jrvJnucFjXICOKAr2UoFfbNSSViWShdG2mRDIks9SJxGgmK3zmKsWva1jAmEWVtg'}, {'api': '/sdkLogin/playerAccount', 'password': '123456zw', 'user': '18598019760', 'token': 'eyJhbGciOiJIUzUxMiJ9.eyJnYW1lSWQiOjczLCJhY2NvdW50SWQiOiIxMWVkNjZmNGZlM2VkZjIxNTI1NDAwOWMyZjA5Yjc3MCIsImV4cGlyZVRpbWUiOjE2NjkzNTAxMzcsImdyYW50VHlwZSI6ImF1dGhvcml6YXRpb24ifQ.QpJX0_WxHUrq2iG47Zs134jrvJnucFjXICOKAr2UoFfbNSSViWShdG2mRDIks9SJxGgmK3zmKsWva1jAmEWVtg'}]" ]
+      }, {
+        "name" : "test_03_tourist_register",
+        "uid" : "5a6d9e37af463e3c",
+        "parentUid" : "2369bf74d86bcfc0d4b3197e39f28d03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733314003,
+          "stop" : 1689733314003,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_04_tourist_login[data0]",
+        "uid" : "6e48a99a38ac799e",
+        "parentUid" : "2369bf74d86bcfc0d4b3197e39f28d03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733314005,
+          "stop" : 1689733314419,
+          "duration" : 414
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/sdkLogin/playerAccount', 'gameId': '73'}, {'gamId': '666666'}]" ]
+      }, {
+        "name" : "test_05_tourist_realuser[realdata0]",
+        "uid" : "bacec3b5bfe1715c",
+        "parentUid" : "2369bf74d86bcfc0d4b3197e39f28d03",
+        "status" : "broken",
+        "time" : {
+          "start" : 1689733314806,
+          "stop" : 1689733315170,
+          "duration" : 364
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/realName/certification', 'idCard': '340302201108031051', 'realName': '陈浩'}, {'gamId': '666666'}]" ]
+      }, {
+        "name" : "test_06_tourist_setpwd[pwddata0]",
+        "uid" : "f41a236a3bf476d1",
+        "parentUid" : "2369bf74d86bcfc0d4b3197e39f28d03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733315518,
+          "stop" : 1689733315953,
+          "duration" : 435
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/account/updatePasswordByToken', 'logapi': '/sdkLogin/playerAccount', 'newPassword': 'abcdefg', 'erroPassword': 'wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwWWWWW'}]" ]
+      }, {
+        "name" : "test_07_newpwdLogin_tourist[newpwds0]",
+        "uid" : "529abc0d36ffa1dd",
+        "parentUid" : "2369bf74d86bcfc0d4b3197e39f28d03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733315956,
+          "stop" : 1689733316300,
+          "duration" : 344
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/account/updatePasswordByToken', 'logapi': '/sdkLogin/playerAccount', 'newPassword': 'abcdefg', 'erroPassword': 'wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwWWWWW'}]" ]
+      }, {
+        "name" : "test_08_oldpwdLoginFail_tourist[data0]",
+        "uid" : "a33377f15cd2298d",
+        "parentUid" : "2369bf74d86bcfc0d4b3197e39f28d03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733316303,
+          "stop" : 1689733316921,
+          "duration" : 618
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/sdkLogin/playerAccount', 'gameId': '73'}, {'gamId': '666666'}]" ]
+      }, {
+        "name" : "test_09_sendreason_success[senddata0]",
+        "uid" : "64b2584ac6dd6fc0",
+        "parentUid" : "2369bf74d86bcfc0d4b3197e39f28d03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733317293,
+          "stop" : 1689733317628,
+          "duration" : 335
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/info/feedback', 'content1': {'content': 'one,用户反馈了一条意见'}, 'content2': {'content': 'two,用户反馈了一条意见'}}]" ]
+      }, {
+        "name" : "test_09_sendtworeason_success[senddata0]",
+        "uid" : "4021a7490d61d13f",
+        "parentUid" : "2369bf74d86bcfc0d4b3197e39f28d03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733317998,
+          "stop" : 1689733318689,
+          "duration" : 691
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/info/feedback', 'content1': {'content': 'one,用户反馈了一条意见'}, 'content2': {'content': 'two,用户反馈了一条意见'}}]" ]
+      }, {
+        "name" : "test_10_payChek_success[paydata0]",
+        "uid" : "6c0d7d08317543c1",
+        "parentUid" : "2369bf74d86bcfc0d4b3197e39f28d03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733319057,
+          "stop" : 1689733319388,
+          "duration" : 331
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/indulge/payCheck', 'age': '18', 'big_age': '16', 'midl_age': '11', 'small_age': '6', 'amount': '19800', 'except_bigstr': '游戏中16周岁以上未满18周岁的用户', 'except_midlstr': '游戏中8周岁以上未满16周岁的用户', 'except_smallstr': '本游戏不为未满8周岁的用户', 'indulge': 1}]" ]
+      }, {
+        "name" : "test_11_payCheck_big_age",
+        "uid" : "e27bfa5a0d401b39",
+        "parentUid" : "2369bf74d86bcfc0d4b3197e39f28d03",
+        "status" : "failed",
+        "time" : {
+          "start" : 1689733319744,
+          "stop" : 1689733320081,
+          "duration" : 337
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_12_payCheck_midl_age",
+        "uid" : "df45a31287bdcb0a",
+        "parentUid" : "2369bf74d86bcfc0d4b3197e39f28d03",
+        "status" : "failed",
+        "time" : {
+          "start" : 1689733320468,
+          "stop" : 1689733320772,
+          "duration" : 304
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_13_payCheck_small_age",
+        "uid" : "86ed0ef6c10531f4",
+        "parentUid" : "2369bf74d86bcfc0d4b3197e39f28d03",
+        "status" : "failed",
+        "time" : {
+          "start" : 1689733321125,
+          "stop" : 1689733321469,
+          "duration" : 344
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_14_creat_order[order_data0]",
+        "uid" : "b23e4657199b23a7",
+        "parentUid" : "2369bf74d86bcfc0d4b3197e39f28d03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733322888,
+          "stop" : 1689733323257,
+          "duration" : 369
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'api': '/pay/create', 'devgame32': {'extension': 'http://192.168.5.33:30201', 'curDayChargeCount': '0', 'rmb': '600', 'gameOrderNo': 'Test8X', 'productName': '60仙玉', 'vipGrade': '4', 'areaName': 'xfzml.s99998', 'roleLevel': '161', 'sn': 'xfzml', 'sumChargeCount': '2', 'timestamp': '1688462664', 'gameId': '107', 'amount': '100', 'productId': '101', 'roleId': '12613819', 'count': '5826', 'productDescribe': '60仙玉', 'version': '2', 'zk': 'frx_fzml', 'regTime': '1682071973', 'areaId': '99998', 'sumCharge': '199', 'roleName': 'S99998.天泽延龙英喆', 'cpExtend': 'http://192.168.5.33:30201', 'continuityLoginDay': '1', 'snKey': 'h0200', 'zoneKey': 'frx_fzml', 'tsKey': 'fangZhouGH', 'envKey': 'H5'}, 'devgame37': {'extension': 'http://192.168.5.33:30201', 'curDayChargeCount': '0', 'rmb': '600', 'gameOrderNo': 'Test8X', 'productName': '60仙玉', 'vipGrade': '4', 'areaName': 'xfzml.s99998', 'roleLevel': '161', 'sn': 'xfzml', 'sumChargeCount': '2', 'timestamp': '1688462664', 'gameId': '107', 'amount': '100', 'productId': '101', 'roleId': '12613819', 'count': '5826', 'productDescribe': '60仙玉', 'version': '2', 'zk': 'frx_fzml', 'regTime': '1682071973', 'areaId': '99998', 'sumCharge': '199', 'roleName': 'S99998.天泽延龙英喆', 'cpExtend': 'http://192.168.5.33:30201', 'continuityLoginDay': '1', 'snKey': 'h0336', 'zoneKey': 'frx_fzml', 'tsKey': 'fangZhouGH', 'envKey': 'H5'}, 'devgame79': {'extension': 'http://192.168.5.33:30201', 'curDayChargeCount': '0', 'rmb': '600', 'gameOrderNo': 'Test8X', 'productName': '60仙玉', 'vipGrade': '4', 'areaName': 'xfzml.s99998', 'roleLevel': '161', 'sn': 'xfzml', 'sumChargeCount': '2', 'timestamp': '1688462664', 'gameId': '107', 'amount': '100', 'productId': '101', 'roleId': '12613819', 'count': '5826', 'productDescribe': '60仙玉', 'version': '2', 'zk': 'frx_fzml', 'regTime': '1682071973', 'areaId': '99998', 'sumCharge': '199', 'roleName': 'S99998.天泽延龙英喆', 'cpExtend': 'http://192.168.5.33:30201', 'continuityLoginDay': '1', 'snKey': 'h0336', 'zoneKey': 'frx_fzml', 'tsKey': 'fangZhouGH', 'envKey': 'H5'}, 'devgame80': {'extension': 'http://192.168.5.33:30201', 'curDayChargeCount': '0', 'rmb': '600', 'gameOrderNo': 'Test8X', 'productName': '60仙玉', 'vipGrade': '4', 'areaName': 'xfzml.s99998', 'roleLevel': '161', 'sn': 'xfzml', 'sumChargeCount': '2', 'timestamp': '1688462664', 'gameId': '107', 'amount': '100', 'productId': '101', 'roleId': '12613819', 'count': '5826', 'productDescribe': '60仙玉', 'version': '2', 'zk': 'frx_fzml', 'regTime': '1682071973', 'areaId': '99998', 'sumCharge': '199', 'roleName': 'S99998.天泽延龙英喆', 'cpExtend': 'http://192.168.5.33:30201', 'continuityLoginDay': '1', 'snKey': 'h0336', 'zoneKey': 'frx_fzml', 'tsKey': 'fangZhouGH', 'envKey': 'H5'}}" ]
+      }, {
+        "name" : "test_16_loginMethodGet[32除妖]",
+        "uid" : "296305f983f57d56",
+        "parentUid" : "2369bf74d86bcfc0d4b3197e39f28d03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733323262,
+          "stop" : 1689733323628,
+          "duration" : 366
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'32'" ]
+      }, {
+        "name" : "test_16_loginMethodGet[33请问]",
+        "uid" : "126678f9b5f287af",
+        "parentUid" : "2369bf74d86bcfc0d4b3197e39f28d03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733323630,
+          "stop" : 1689733323972,
+          "duration" : 342
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'33'" ]
+      }, {
+        "name" : "test_16_loginMethodGet[37斗魂]",
+        "uid" : "58eb786079b143d4",
+        "parentUid" : "2369bf74d86bcfc0d4b3197e39f28d03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733323974,
+          "stop" : 1689733324498,
+          "duration" : 524
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'37'" ]
+      }, {
+        "name" : "test_16_loginMethodGet[79幻刃录]",
+        "uid" : "75467461ac19e316",
+        "parentUid" : "2369bf74d86bcfc0d4b3197e39f28d03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733324501,
+          "stop" : 1689733324829,
+          "duration" : 328
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'79'" ]
+      }, {
+        "name" : "test_16_loginMethodGet[80斗争]",
+        "uid" : "67955cfee90effe1",
+        "parentUid" : "2369bf74d86bcfc0d4b3197e39f28d03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733324832,
+          "stop" : 1689733325200,
+          "duration" : 368
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'80'" ]
+      }, {
+        "name" : "test_16_loginMethodGet[85三国]",
+        "uid" : "e49ce3821126f0a4",
+        "parentUid" : "2369bf74d86bcfc0d4b3197e39f28d03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733325202,
+          "stop" : 1689733325565,
+          "duration" : 363
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'85'" ]
+      }, {
+        "name" : "test_16_loginMethodGet[96直播包]",
+        "uid" : "dbf852532f46bf85",
+        "parentUid" : "2369bf74d86bcfc0d4b3197e39f28d03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1689733325568,
+          "stop" : 1689733325887,
+          "duration" : 319
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'96'" ]
+      } ],
+      "uid" : "2369bf74d86bcfc0d4b3197e39f28d03"
+    } ],
+    "uid" : "c0312abb0c44f97eeff86c64d066010e"
+  } ]
+}

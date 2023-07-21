@@ -1,0 +1,4 @@
+-
+  api: '/info/feedback'
+  content1: {"content":"one,用户反馈了一条意见"}
+  content2: {"content":"two,用户反馈了一条意见"}

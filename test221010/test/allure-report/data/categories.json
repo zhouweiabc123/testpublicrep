@@ -1,0 +1,300 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TypeError: 'NoneType' object is not subscriptable",
+      "children" : [ {
+        "name" : "test_05_tourist_realuser[realdata0]",
+        "uid" : "e4a9b0ea36db6354",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1689733263093,
+          "stop" : 1689733263418,
+          "duration" : 325
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/realName/certification', 'idCard': '340302201108031051', 'realName': '陈浩'}, {'gamId': '666666'}]" ]
+      }, {
+        "name" : "test_05_tourist_realuser[realdata0]",
+        "uid" : "1ba48437162a50cc",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1689733288225,
+          "stop" : 1689733288576,
+          "duration" : 351
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/realName/certification', 'idCard': '340302201108031051', 'realName': '陈浩'}, {'gamId': '666666'}]" ]
+      }, {
+        "name" : "test_05_tourist_realuser[realdata0]",
+        "uid" : "bacec3b5bfe1715c",
+        "parentUid" : "86a928d47f47009c564bd8e345a40463",
+        "status" : "broken",
+        "time" : {
+          "start" : 1689733314806,
+          "stop" : 1689733315170,
+          "duration" : 364
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[{'api': '/realName/certification', 'idCard': '340302201108031051', 'realName': '陈浩'}, {'gamId': '666666'}]" ]
+      } ],
+      "uid" : "86a928d47f47009c564bd8e345a40463"
+    }, {
+      "name" : "requests.exceptions.MissingSchema: Invalid URL '/login/index': No scheme supplied. Perhaps you meant http:///login/index?",
+      "children" : [ {
+        "name" : "test_50_get_userInfo",
+        "uid" : "16aa6dbfb951fa8e",
+        "parentUid" : "0bee6f7ff56887f9b75f428836279080",
+        "status" : "broken",
+        "time" : {
+          "start" : 1689733290697,
+          "stop" : 1689733290697,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_14_create",
+        "uid" : "3d9285d93376a604",
+        "parentUid" : "0bee6f7ff56887f9b75f428836279080",
+        "status" : "broken",
+        "time" : {
+          "start" : 1689733294851,
+          "stop" : 1689733294851,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0bee6f7ff56887f9b75f428836279080"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '游戏中16周岁以上未满18周岁的用户' in ''",
+      "children" : [ {
+        "name" : "test_11_payCheck_big_age",
+        "uid" : "5e7c420c1d34c5b2",
+        "parentUid" : "cbd638365419ea5a90ea7da9ba9a7936",
+        "status" : "failed",
+        "time" : {
+          "start" : 1689733267551,
+          "stop" : 1689733267880,
+          "duration" : 329
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_11_payCheck_big_age",
+        "uid" : "d2e83f0e442b24bc",
+        "parentUid" : "cbd638365419ea5a90ea7da9ba9a7936",
+        "status" : "failed",
+        "time" : {
+          "start" : 1689733280314,
+          "stop" : 1689733280692,
+          "duration" : 378
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_11_payCheck_big_age",
+        "uid" : "e27bfa5a0d401b39",
+        "parentUid" : "cbd638365419ea5a90ea7da9ba9a7936",
+        "status" : "failed",
+        "time" : {
+          "start" : 1689733319744,
+          "stop" : 1689733320081,
+          "duration" : 337
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cbd638365419ea5a90ea7da9ba9a7936"
+    }, {
+      "name" : "AssertionError: assert '游戏中8周岁以上未满16周岁的用户' in ''",
+      "children" : [ {
+        "name" : "test_12_payCheck_midl_age",
+        "uid" : "1bfac7bd705e7bf4",
+        "parentUid" : "a2a0996a3cba904b617a746900d41338",
+        "status" : "failed",
+        "time" : {
+          "start" : 1689733268244,
+          "stop" : 1689733268604,
+          "duration" : 360
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_12_payCheck_midl_age",
+        "uid" : "1997b6a6a5b1b17c",
+        "parentUid" : "a2a0996a3cba904b617a746900d41338",
+        "status" : "failed",
+        "time" : {
+          "start" : 1689733281055,
+          "stop" : 1689733281390,
+          "duration" : 335
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_12_payCheck_midl_age",
+        "uid" : "df45a31287bdcb0a",
+        "parentUid" : "a2a0996a3cba904b617a746900d41338",
+        "status" : "failed",
+        "time" : {
+          "start" : 1689733320468,
+          "stop" : 1689733320772,
+          "duration" : 304
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a2a0996a3cba904b617a746900d41338"
+    }, {
+      "name" : "AssertionError: assert '本游戏不为未满8周岁的用户' in ''",
+      "children" : [ {
+        "name" : "test_13_payCheck_small_age",
+        "uid" : "6c6f321187475183",
+        "parentUid" : "9e0a9668b14aa6582b0e57fb73e30d2a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1689733268991,
+          "stop" : 1689733269302,
+          "duration" : 311
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_13_payCheck_small_age",
+        "uid" : "d98f109d03066423",
+        "parentUid" : "9e0a9668b14aa6582b0e57fb73e30d2a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1689733281712,
+          "stop" : 1689733282029,
+          "duration" : 317
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_13_payCheck_small_age",
+        "uid" : "86ed0ef6c10531f4",
+        "parentUid" : "9e0a9668b14aa6582b0e57fb73e30d2a",
+        "status" : "failed",
+        "time" : {
+          "start" : 1689733321125,
+          "stop" : 1689733321469,
+          "duration" : 344
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9e0a9668b14aa6582b0e57fb73e30d2a"
+    }, {
+      "name" : "AssertionError: assert 1 == [{'age': '18', 'amount': '19800', 'api': '/indulge/payCheck', 'big_age': '16', ...}]",
+      "children" : [ {
+        "name" : "test_05_tourist_loginfail",
+        "uid" : "23a155ec1940daee",
+        "parentUid" : "9f4486bd67100dec7c5b609022cb88f2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1689733295950,
+          "stop" : 1689733295950,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9f4486bd67100dec7c5b609022cb88f2"
+    }, {
+      "name" : "AssertionError: assert 1 < 1",
+      "children" : [ {
+        "name" : "test_04_usedata[1排第一]",
+        "uid" : "34dac5a9234a81e3",
+        "parentUid" : "1cafeb52b54d446ea22f8799e50023c2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1689733295959,
+          "stop" : 1689733295959,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1" ]
+      } ],
+      "uid" : "1cafeb52b54d446ea22f8799e50023c2"
+    }, {
+      "name" : "AssertionError: assert 2 < 1",
+      "children" : [ {
+        "name" : "test_04_usedata[2排第二]",
+        "uid" : "21ff3cded6bd83be",
+        "parentUid" : "2cfde2889ad4945a845f81ff20e06ee1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1689733295969,
+          "stop" : 1689733295969,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2" ]
+      } ],
+      "uid" : "2cfde2889ad4945a845f81ff20e06ee1"
+    }, {
+      "name" : "AssertionError: assert 3 < 1",
+      "children" : [ {
+        "name" : "test_04_usedata[3排第三]",
+        "uid" : "699eeb13b2befd2d",
+        "parentUid" : "481fe8082b9773e094c28cde97ee0de3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1689733295979,
+          "stop" : 1689733295979,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3" ]
+      } ],
+      "uid" : "481fe8082b9773e094c28cde97ee0de3"
+    }, {
+      "name" : "AssertionError: assert 1 == {'code': 0, 'data': {'account': 'FZ10RnGNiUyS', 'age': -1, 'gameId': 73, 'indulgeCd': -1, ...}, 'msg': ''}",
+      "children" : [ {
+        "name" : "test_15_creatorder",
+        "uid" : "808cf98d06703fd5",
+        "parentUid" : "43fd4813f2aa988d6ebb1bf028f198b2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1689733296363,
+          "stop" : 1689733296363,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "43fd4813f2aa988d6ebb1bf028f198b2"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
