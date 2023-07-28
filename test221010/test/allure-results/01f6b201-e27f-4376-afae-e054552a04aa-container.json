@@ -1,1 +1,0 @@
-{"uuid": "07a48ddc-ccb2-4908-977a-ea9ff98e4ff8", "children": ["6eea1c9a-06c0-422d-bfb9-47c9a8cc6b31"], "befores": [{"name": "new_tourist_data", "status": "passed", "steps": [{"name": "发送请求", "status": "passed", "start": 1689733295990, "stop": 1689733296362}], "start": 1689733295989, "stop": 1689733296362}], "start": 1689733295989, "stop": 1689733296371}

@@ -1,8 +1,7 @@
 import logging
-
 import requests
 import sys
-
+from selenium import webdriver
 #from test221010.conf.conf import MyConfig
 from test221010.test.airdemo import windows_airdemo as winair
 sys.path.append(r"D:\A_Python\GitProjects\ServerProject\testpublicrep\test221010\test")
@@ -71,7 +70,7 @@ class TestQingWeng:
             create_url = 'https://isp-dev.hhycdk.com'
             gameId = '32'
     # 日志记录configurl，index_url，gameId
-    mylog.mylog.info(f"{dev_start_time}：configurl：{configurl}，index_url：{index_url}，gameId：{gameId}")
+    mylog.mylog.info(f"{ftime}：configurl：{configurl}，index_url：{index_url}，gameId：{gameId}")
     @pytest.mark.parametrize('data', yaml.load_all(open(fr'{yml_path}/login.yml', 'r',encoding='utf-8')))
     @allure.story('密码正确，登录成功')
     @allure.severity('critical')
@@ -722,7 +721,7 @@ class TestQingWeng:
         if response['code'] == 1:
             while (i < 51):
                 mylog.mylog.info(f'尝试循环获取open_Id第{i}次')
-                res = requests.post(url=data[0]["api"], json=param_json, headers=header)
+                res = requests.post(url=self.index_url, json=param_json, headers=header)
                 response = res.json()
                 i += 1
                 if response['code'] == 0:
@@ -755,6 +754,7 @@ class TestQingWeng:
     @allure.story("尝试创建订单，签名加密错误，创建失败")
     @allure.severity("blocker")
     @pytest.mark.parametrize('order_data', yaml.full_load(open(fr"{yml_path}/create.yml", "r", encoding="utf-8")))
+    @pytest.mark.skip("线上环境创建订单会报签名检验错误，暂时先跳过")
     def test_14_creat_order(self, order_login, order_openId, mk_time, order_num, order_data):
         #indexId不知从哪获取，现用index.yml里的
         indexdata=yaml.full_load(open(fr"{self.yml_path}/index.yml","r",encoding="utf-8"))
@@ -858,18 +858,29 @@ class TestQingWeng:
         with allure.step("断言"):
             assert response["code"] == 0
     @allure.feature("游戏界面测试模块")
-    @allure.story("模拟玩家游戏内手动创建订单，32游戏正常创建成功")
+    @allure.story("H5SDK链接模拟玩家游戏内手动创建订单，32游戏正常创建成功")
     @allure.severity("blocker")
     def test_17_order_airtest(self):
+        driver = webdriver.Chrome()
         '''除妖大冒险正式环境手工创建订单，H5SDK链接'''
         with allure.step("准备，进入游戏选服页面"):
-            winair.premise_windows_airtet()
+            winair.premise_windows_airtet(driver=driver)
 
         with allure.step("使用airtest 走订单创建操作"):
-            tupleone=winair.demo_windows_airtest()
+            tupleone=winair.demo_windows_airtest(driver=driver)
         with allure.step("断言"):
             assert type(tupleone)==type(1)
+    @allure.feature("Android App游戏界面测试模块")
+    @allure.story("Android手机APP模拟玩家游戏内手动创建订单，32游戏正常创建成功")
+    @allure.severity("blocker")
+    @pytest.mark.skip("无安卓模拟器安装，暂时先跳过")
+    def test_18_apporder_airtest(self):
+        '''除妖大冒险正式环境手工创建订单，Android包'''
+        with allure.step("进行Android手机玩家创建订单操作"):
+            tupleAndroid=winair.demo_andorid_airtest()
+        with allure.step("断言"):
+            assert type(tupleAndroid)==type(1)
 
-
+        pass
 if __name__ == '__main__':
     print("开始")
